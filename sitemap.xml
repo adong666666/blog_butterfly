@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://a.zsd.name/about/index.html</loc>
+    
+    <lastmod>2022-04-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://a.zsd.name/messageboard/index.html</loc>
+    
+    <lastmod>2022-04-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://a.zsd.name/gallery/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
@@ -66,15 +84,6 @@
   
   <url>
     <loc>https://a.zsd.name/posts/21cfbf15.html</loc>
-    
-    <lastmod>2022-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://a.zsd.name/messageboard/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
     
@@ -203,15 +212,6 @@
     <loc>https://a.zsd.name/gallery/wallpaper/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://a.zsd.name/about/index.html</loc>
-    
-    <lastmod>2022-04-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
