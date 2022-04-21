@@ -1,0 +1,2135 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Butterfly 安裝文檔(三) 主題配置-1 | 张赛东</title><meta name="keywords" content="hexo,butterfly,主題,doc,教程,文檔"><meta name="author" content="张赛东,3440217568@qq.com"><meta name="copyright" content="张赛东"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Butterfly安裝文檔-主題配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Butterfly 安裝文檔(三) 主題配置-1">
+<meta property="og:url" content="https://a.zsd.name/posts/4aa8abbe.html">
+<meta property="og:site_name" content="张赛东">
+<meta property="og:description" content="Butterfly安裝文檔-主題配置">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-docs-03-cover.png">
+<meta property="article:published_time" content="2020-05-28T14:36:02.000Z">
+<meta property="article:modified_time" content="2022-04-21T07:36:45.051Z">
+<meta property="article:author" content="张赛东">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="主題">
+<meta property="article:tag" content="butterfly">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-docs-03-cover.png"><link rel="shortcut icon" href="../img/favicon.png"><link rel="canonical" href="https://a.zsd.name/posts/4aa8abbe"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":500},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 张赛东","link":"链接: ","source":"来源: 张赛东","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Butterfly 安裝文檔(三) 主題配置-1',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-04-21 15:36:45'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="atom.xml" title="张赛东" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="/img/favicon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="tags/"><div class="headline">标签</div><div class="length-num">56</div></a><a href="categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://zsd.name"><span> 艺苑</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://blog.zsd.name"><span> 学苑</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/104.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">张赛东</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://zsd.name"><span> 艺苑</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://blog.zsd.name"><span> 学苑</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Butterfly 安裝文檔(三) 主題配置-1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-05-28T14:36:02.000Z" title="发表于 2020-05-28 22:36:02">2020-05-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-21T07:36:45.051Z" title="更新于 2022-04-21 15:36:45">2022-04-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="../categories/Docs%E6%96%87%E6%AA%94/">Docs文檔</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Butterfly 安裝文檔(三) 主題配置-1"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>📖  本教程更新於 2022 年 02 月 13 日，教程的內容針對最新<strong>穩定版</strong>而更新（如果你是舊版，教程會有些出入，請留意）</p>
+<p>🦋  Butterfly 已經更新到 <a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly/releases/tag/4.1.0">4.1.0</a></p>
+</div>
+
+<div class="note green icon flat"><i class="note-icon fas fa-rocket"></i><p> 📚  文檔目錄</p>
+<p><a href="#">Post not found: Butterfly-安裝文檔-一-快速開始 🚀 快速開始</a> - <a href="#">Post not found: Butterfly-安裝文檔-二-主題頁面 📑 主題頁面</a> - <a href="#">Post not found: Butterfly-安裝文檔-三-主題配置-1 🛠 主題配置-1</a> - <a href="#">Post not found: Butterfly-安裝文檔-四-主題配置-2 ⚔️ 主題配置-2</a> - <a href="#">Post not found: Butterfly-安裝文檔-五-主題問答 ❓ 主題問答</a> - <a href="#">Post not found: Butterfly-安裝文檔-六-進階教程 ⚡️ 進階教程</a> - <a href="#">Post not found: Butterfly-安裝文檔-七-更新日誌 ✨ 更新日誌</a> - <a href="#">Post not found: Butterfly-打賞 🤞 打賞</a></p>
+</div>
+
+<div class="note orange icon flat"><i class="note-icon fas fa-magic"></i><p>你可以通過右下角的 <strong>簡</strong> 按鈕切換為簡體顯示 </p>
+</div>
+
+<hr>
+<h2 id="語言"><a href="#語言" class="headerlink" title="語言"></a>語言</h2><p>修改站點配置文件 <code>_config.yml</code></p>
+<p>默認語言是 en</p>
+<p>主題支持三種語言</p>
+<ul>
+<li>default(en)</li>
+<li>zh-CN (簡體中文)</li>
+<li>zh-TW (繁體中文)</li>
+</ul>
+<h2 id="網站資料"><a href="#網站資料" class="headerlink" title="網站資料"></a>網站資料</h2><p>修改網站各種資料，例如標題、副標題和郵箱等個人資料，請修改博客根目錄的<code>_config.yml</code></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/20191120000444.png"></p>
+<h2 id="導航菜單"><a href="#導航菜單" class="headerlink" title="導航菜單"></a>導航菜單</h2><p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">Home</span><span class="token punctuation">:</span> / <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>home
+<span class="token key atrule">Archives</span><span class="token punctuation">:</span> /archives/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>archive
+<span class="token key atrule">Tags</span><span class="token punctuation">:</span> /tags/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>tags
+<span class="token key atrule">Categories</span><span class="token punctuation">:</span> /categories/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>folder<span class="token punctuation">-</span>open
+<span class="token key atrule">List||fas fa-list</span><span class="token punctuation">:</span>
+  <span class="token key atrule">Music</span><span class="token punctuation">:</span> /music/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>music
+  <span class="token key atrule">Movie</span><span class="token punctuation">:</span> /movies/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>video
+<span class="token key atrule">Link</span><span class="token punctuation">:</span> /link/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>link
+<span class="token key atrule">About</span><span class="token punctuation">:</span> /about/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>heart<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>必須是 <code>/xxx/</code>，後面<code>||</code>分開，然後寫圖標名。</p>
+<p>如果不希望顯示圖標，圖標名可不寫。</p>
+<p>默認子目錄是展開的，如果你想要隱藏，在子目錄裏添加 <code>hide</code> 。</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">List||fas fa-list||hide</span><span class="token punctuation">:</span>
+  <span class="token key atrule">Music</span><span class="token punctuation">:</span> /music/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>music
+  <span class="token key atrule">Movie</span><span class="token punctuation">:</span> /movies/ <span class="token punctuation">|</span><span class="token punctuation">|</span> fas fa<span class="token punctuation">-</span>video<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>注意：</strong> 導航的文字可自行更改</p>
+<p>例如：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">menu:
+  首頁: / || fas fa-home
+  時間軸: /archives/ || fas fa-archive
+  標籤: /tags/ || fas fa-tags
+  分類: /categories/ || fas fa-folder-open
+  清單||fa fa-heartbeat:
+    音樂: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    電影: /movies/ || fas fa-video
+  友鏈: /link/ || fas fa-link
+  關於: /about/ || fas fa-heart<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-menu.png"></p>
+<h2 id="代碼"><a href="#代碼" class="headerlink" title="代碼"></a>代碼</h2><div class="note info flat"><p>代碼塊中的所有功能只適用於 Hexo 自帶的代碼渲染</p>
+<p>如果使用第三方的渲染器，不一定會有效</p>
+</div>
+
+<h3 id="代碼高亮主題"><a href="#代碼高亮主題" class="headerlink" title="代碼高亮主題"></a>代碼高亮主題</h3><div class="tabs" id="highlight-theme"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#highlight-theme-1">默認主題</button></li><li class="tab"><button type="button" data-href="#highlight-theme-2">自定義主題</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="highlight-theme-1"><p><code>Butterfly</code> 支持6種代碼高亮樣式：</p>
+<ul>
+<li>darker</li>
+<li>pale night</li>
+<li>light</li>
+<li>ocean</li>
+<li>mac</li>
+<li>mac light</li>
+</ul>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">highlight_theme</span><span class="token punctuation">:</span> light<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<blockquote>
+<p>darker</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-code-darker.png"></p>
+<blockquote>
+<p>pale night</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-code-pale-night.png"></p>
+<blockquote>
+<p>light</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-code-light.png"></p>
+<blockquote>
+<p>ocean</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-highlight-ocean.png"></p>
+<blockquote>
+<p>mac</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-highlight-mac.png"></p>
+<blockquote>
+<p>mac light</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-mac-light.png" alt="image-20200731175026827"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="highlight-theme-2"><p>主題從3.0開始，支持使用自定義的代碼顔色。</p>
+<p>如何自定義主題，請查看下面這篇文章。</p>
+<p><a href="#">Post not found: 自定義代碼配色 自定義代碼配色</a></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h3 id="代碼複製"><a href="#代碼複製" class="headerlink" title="代碼複製"></a>代碼複製</h3><p>主題支持代碼複製功能</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">highlight_copy</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-code-copy.png"></p>
+<h3 id="代碼框展開-關閉"><a href="#代碼框展開-關閉" class="headerlink" title="代碼框展開/關閉"></a>代碼框展開/關閉</h3><p>在默認情況下，代碼框自動展開，可設置是否所有代碼框都關閉狀態，點擊<code>&gt;</code>可展開代碼</p>
+<ul>
+<li>true 全部代碼框不展開，需點擊<code>&gt;</code>打開 </li>
+<li>false 代碼狂展開，有<code>&gt;</code>點擊按鈕</li>
+<li>none 不顯示<code>&gt;</code>按鈕</li>
+</ul>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">highlight_shrink</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment">#代碼框不展開，需點擊 '&gt;' 打開</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<div class="note info flat"><p>你也可以在post/page頁對應的markdown文件front-matter添加highlight_shrink來獨立配置。</p>
+<p>當<strong>主題配置文件中</strong>的 <code>highlight_shrink </code>設為true時，可在front-matter添加<code>highlight_shrink: false</code>來單獨配置文章展開代碼框。</p>
+<p>當<strong>主題配置文件中</strong>的 <code>highlight_shrink </code>設為false時，可在front-matter添加<code>highlight_shrink: true</code>來單獨配置文章收縮代碼框。</p>
+</div>
+
+<p><code>highlight_shrink: true</code></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-highlight-shrink-true.png"></p>
+<p><code>highlight_shrink: false</code></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-highlight-shrink-false.png"></p>
+<p><code>highlight_shrink: none</code></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-highlight-shirk-none.png"></p>
+<h3 id="代碼換行"><a href="#代碼換行" class="headerlink" title="代碼換行"></a>代碼換行</h3><p>在默認情況下，Hexo 在編譯的時候不會實現代碼自動換行。如果你不希望在代碼塊的區域裏有橫向滾動條的話，那麼你可以考慮開啟這個功能。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">code_word_wrap</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>如果你是使用 highlight 渲染，需要找到你站點的 Hexo 配置文件<code>_config.yml</code>，將<code>line_number</code>改成<code>false</code>:</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">highlight</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># &lt;- 改這裏</span>
+  <span class="token key atrule">auto_detect</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  tab_replace<span class="token punctuation">:</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>如果你是使用 prismjs 渲染，需要找到你站點的 Hexo 配置文件<code>_config.yml</code>，將<code>line_number</code>改成<code>false</code>:</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">prismjs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">preprocess</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># &lt;- 改這裏</span>
+  <span class="token key atrule">tab_replace</span><span class="token punctuation">:</span> <span class="token string">''</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>設置<code>code_word_wrap</code>之前:</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-code-word-wrap-before.png"></p>
+<blockquote>
+<p>設置<code>code_word_wrap</code>之後:</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-code-word-wrap-after.png"></p>
+<h3 id="代碼高度限制"><a href="#代碼高度限制" class="headerlink" title="代碼高度限制"></a>代碼高度限制</h3><blockquote>
+<p>3.7.0 及以上支持</p>
+</blockquote>
+<p>可配置代碼高度限制，超出的部分會隱藏，並顯示展開按鈕。</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">highlight_height_limit</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># unit: px</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>注意：</p>
+<ol>
+<li><p>單位是 <code>px</code>，直接添加數字，如 200</p>
+</li>
+<li><p>實際限制高度為 <code>highlight_height_limit + 30 px</code> ，多增加 30px 限制，目的是避免代碼高度只超出highlight_height_limit 一點時，出現展開按鈕，展開沒內容。</p>
+</li>
+<li><p>不適用於隱藏後的代碼塊（ css 設置 display: none）</p>
+</li>
+</ol>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/hexo-theme-butterfly-docs-highlight-heigh-limit.gif" alt="hexo-theme-butterfly-docs-highlight-heigh-limit"></p>
+<h2 id="社交圖標"><a href="#社交圖標" class="headerlink" title="社交圖標"></a>社交圖標</h2><p>Butterfly支持 <a target="_blank" rel="noopener" href="https://fontawesome.com/icons?from=io">font-awesome v6</a>圖標. </p>
+<p>書寫格式 <code>圖標名：url || 描述性文字</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">social</span><span class="token punctuation">:</span>
+  <span class="token key atrule">fab fa-github</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//github.com/xxxxx <span class="token punctuation">|</span><span class="token punctuation">|</span> Github
+  <span class="token key atrule">fas fa-envelope</span><span class="token punctuation">:</span> mailto<span class="token punctuation">:</span>xxxxxx@gmail.com <span class="token punctuation">|</span><span class="token punctuation">|</span> Email<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>圖標名可在這尋找</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-fontawesome.png"></p>
+<p>PC:</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-social-icon-pc.png"></p>
+<p>Mobile:</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-socila-icon-mobile.png" alt="1560603353743"></p>
+<h2 id="主頁文章節選-自動節選和文章頁description"><a href="#主頁文章節選-自動節選和文章頁description" class="headerlink" title="主頁文章節選(自動節選和文章頁description)"></a>主頁文章節選(自動節選和文章頁description)</h2><p>因為主題UI的關係，<code>主頁文章節選</code>只支持<code>自動節選</code>和<code>文章頁description</code>。</p>
+<p>在<code>butterfly</code>裏，有四種可供選擇</p>
+<ol>
+<li><strong>description：</strong> 只顯示description</li>
+<li><strong>both：</strong> 優先選擇description，如果沒有配置description，則顯示自動節選的內容</li>
+<li><strong>auto_excerpt：</strong>只顯示自動節選</li>
+<li><strong>false：</strong> 不顯示文章內容</li>
+</ol>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">index_post_content</span><span class="token punctuation">:</span>
+  <span class="token key atrule">method</span><span class="token punctuation">:</span> <span class="token number">3</span>
+  <span class="token key atrule">length</span><span class="token punctuation">:</span> <span class="token number">500</span> <span class="token comment"># if you set method to 2 or 3, the length need to config</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p><code>description</code>在front-matter裏添加</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-post-description.png"></p>
+<h2 id="頂部圖"><a href="#頂部圖" class="headerlink" title="頂部圖"></a>頂部圖</h2><div class="note info flat"><p>如果不要顯示頂部圖，可直接配置 <code>disable_top_img: true</code></p>
+</div>
+
+
+
+<p>配置中的值：</p>
+<table>
+<thead>
+<tr>
+<th>配置</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>index_img</td>
+<td>主頁的 top_img</td>
+</tr>
+<tr>
+<td>default_top_img</td>
+<td>默認的 top_img，當頁面的 top_img 沒有配置時，會顯示 default_top_img</td>
+</tr>
+<tr>
+<td>archive_img</td>
+<td>歸檔頁面的 top_img</td>
+</tr>
+<tr>
+<td>tag_img</td>
+<td>tag 子頁面 的 默認 top_img</td>
+</tr>
+<tr>
+<td>tag_per_img</td>
+<td>tag 子頁面的 top_img，可配置每個 tag 的 top_img</td>
+</tr>
+<tr>
+<td>category_img</td>
+<td>category 子頁面 的 默認 top_img</td>
+</tr>
+<tr>
+<td>category_per_img</td>
+<td>category 子頁面的 top_img，可配置每個 category 的 top_img</td>
+</tr>
+</tbody></table>
+<p>其它頁面 （tags/categories/自建頁面）和 文章頁 的 <code>top_img</code> ，請到對應的 md 頁面設置<code>front-matter</code>中的<code>top_img</code></p>
+<p>以上所有的 top_img 可配置以下值</p>
+<blockquote>
+<p><strong>3.2.0 以下</strong>版本的配置只支持</p>
+<ul>
+<li>留空，true 和 false - 顯示默認的顔色</li>
+<li>img鏈接 - 顯示所配置的圖片</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>配置的值</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>留空</td>
+<td>顯示默認的top_img（如有），否則顯示默認的顔色<br>（文章頁top_img留空的話，會顯示 cover 的值）</td>
+</tr>
+<tr>
+<td>img鏈接</td>
+<td>圖片的鏈接，顯示所配置的圖片</td>
+</tr>
+<tr>
+<td>顔色(<br>HEX值 - #0000FF<br>RGB值 - rgb(0,0,255)<br>顔色單詞 - orange<br>漸變色 - linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%)<br>）</td>
+<td>對應的顔色</td>
+</tr>
+<tr>
+<td>transparent</td>
+<td>透明</td>
+</tr>
+<tr>
+<td>false</td>
+<td>不顯示 top_img</td>
+</tr>
+</tbody></table>
+<p><code>tag_per_img</code> 和 <code>category_per_img</code> 是 3.2.0 新增的內容，可對 tag 和 category 進行單獨的配置</p>
+<p>並不推薦為每個 tag 和每個 category 都配置不同的頂部圖，因為配置太多會拖慢生成速度</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml">tag_per_img：
+  <span class="token key atrule">aplayer</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//xxxxxx.png
+  <span class="token key atrule">android</span><span class="token punctuation">:</span> ddddddd.png
+  
+category_per_img：
+  <span class="token key atrule">隨想</span><span class="token punctuation">:</span> hdhdh.png
+  <span class="token key atrule">推薦</span><span class="token punctuation">:</span> ddjdjdjd.png<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>top_img: false</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-docs-page-top-img-false.png" alt="image-20200924224536013"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-docs-post-top-img-false-new.png" alt="image-20201027210949089"></p>
+<blockquote>
+<p>top_img: orange</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-docs-top-img-orange.png" alt="image-20200924225024153"></p>
+<blockquote>
+<p>top_img: ‘linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)’</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-docs-top-img-color.png" alt="image-20200924225300934"></p>
+<h2 id="文章置頂"><a href="#文章置頂" class="headerlink" title="文章置頂"></a>文章置頂</h2><p>【推薦】<a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-generator-index"><code>hexo-generator-index</code></a>從 2.0.0 開始，已經支持文章置頂功能。你可以直接在文章的<code>front-matter</code>區域裏添加<code>sticky: 1</code>屬性來把這篇文章置頂。數值越大，置頂的優先級越大。</p>
+<h2 id="文章封面"><a href="#文章封面" class="headerlink" title="文章封面"></a>文章封面</h2><p>文章的markdown文檔上,在<code>Front-matter</code>添加<code>cover</code>,並填上要顯示的圖片地址。<br>如果不配置<code>cover</code>,可以設置顯示默認的cover.</p>
+<p>如果不想在首頁顯示cover,可以設置為<code>false</code></p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">cover</span><span class="token punctuation">:</span>
+  <span class="token comment"># 是否顯示文章封面</span>
+  <span class="token key atrule">index_enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">aside_enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">archives_enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token comment"># 封面顯示的位置</span>
+  <span class="token comment"># 三個值可配置 left , right , both</span>
+  <span class="token key atrule">position</span><span class="token punctuation">:</span> both
+  <span class="token comment"># 當沒有設置cover時，默認的封面顯示</span>
+  <span class="token key atrule">default_cover</span><span class="token punctuation">:</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>當配置多張圖片時,會隨機選擇一張作為cover.此時寫法應為</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">default_cover</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+  <span class="token punctuation">-</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg2.png
+  <span class="token punctuation">-</span> https<span class="token punctuation">:</span>//cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg3.png<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-post-cover.png"><br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-post-cover-show.png"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-cover-false.png"></p>
+<blockquote>
+<p>left</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-cover-left.png"></p>
+<blockquote>
+<p>right</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-cover-right.png"></p>
+<blockquote>
+<p>both</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-cover-both.png"></p>
+<h2 id="文章頁相關配置"><a href="#文章頁相關配置" class="headerlink" title="文章頁相關配置"></a>文章頁相關配置</h2><h3 id="文章meta顯示"><a href="#文章meta顯示" class="headerlink" title="文章meta顯示"></a>文章meta顯示</h3><p>這個選項是用來顯示文章的相關信息的。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">post_meta</span><span class="token punctuation">:</span>
+  <span class="token key atrule">page</span><span class="token punctuation">:</span>
+    <span class="token key atrule">date_type</span><span class="token punctuation">:</span> both <span class="token comment"># created or updated or both 主頁文章日期是創建日或者更新日或都顯示</span>
+    <span class="token key atrule">date_format</span><span class="token punctuation">:</span> relative <span class="token comment"># date/relative 顯示日期還是相對日期</span>
+    <span class="token key atrule">categories</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># true or false 主頁是否顯示分類</span>
+    <span class="token key atrule">tags</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># true or false 主頁是否顯示標籤</span>
+    <span class="token key atrule">label</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># true or false 顯示描述性文字</span>
+  <span class="token key atrule">post</span><span class="token punctuation">:</span>
+    <span class="token key atrule">date_type</span><span class="token punctuation">:</span> both <span class="token comment"># created or updated or both 文章頁日期是創建日或者更新日或都顯示</span>
+    <span class="token key atrule">date_format</span><span class="token punctuation">:</span> relative <span class="token comment"># date/relative 顯示日期還是相對日期</span>
+    <span class="token key atrule">categories</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># true or false 文章頁是否顯示分類</span>
+    <span class="token key atrule">tags</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># true or false 文章頁是否顯示標籤</span>
+    <span class="token key atrule">label</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># true or false 顯示描述性文字</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>主頁</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-page-meta.png"></p>
+<blockquote>
+<p>文章頁</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-post-info.png"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-post-tag.png"></p>
+<p><code>date_format</code>  是 3.2.0 新增的內容，配置時間顯示明確時間還是相對時間</p>
+<blockquote>
+<p>相對時間</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-docs-relative-time.png" alt="image-20200928201701560"></p>
+<blockquote>
+<p>明確時間</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-docs-full-date.png" alt="image-20200928201911032"></p>
+<h3 id="文章版權"><a href="#文章版權" class="headerlink" title="文章版權"></a>文章版權</h3><p>為你的博客文章展示文章版權和許可協議。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">post_copyright</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">decode</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">license</span><span class="token punctuation">:</span> CC BY<span class="token punctuation">-</span>NC<span class="token punctuation">-</span>SA 4.0
+  <span class="token key atrule">license_url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//creativecommons.org/licenses/by<span class="token punctuation">-</span>nc<span class="token punctuation">-</span>sa/4.0/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>由於<code>Hexo 4.1</code>開始，默認對網址進行解碼，以至於如果是中文網址，會被解碼，可設置<code>decode: true</code>來顯示中文網址。</p>
+<p>如果有文章（例如：轉載文章）不需要顯示版權，可以在文章Front-matter單獨設置</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">copyright</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>從<code>3.0.0</code>開始，支持對單獨文章設置版權信息，可以在文章Front-matter單獨設置</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">copyright_author: xxxx
+copyright_author_href: https://xxxxxx.com
+copyright_url: https://xxxxxx.com
+copyright_info: 此文章版權歸xxxxx所有，如有轉載，請註明來自原作者<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<p><strong>版權顯示截圖</strong></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-post-copyright.png" alt="image-20210130161913121"></p>
+<h3 id="文章打賞"><a href="#文章打賞" class="headerlink" title="文章打賞"></a>文章打賞</h3><p>在你每篇文章的結尾，可以添加打賞按鈕。相關二維碼可以自行配置。</p>
+<p>對於沒有提供二維碼的，可配置一張軟件的icon圖片，然後在link上添加相應的打賞鏈接。用戶點擊圖片就會跳轉到鏈接去。</p>
+<p>link可以不寫，會默認為圖片的鏈接。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">reward</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">QR_code</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">img</span><span class="token punctuation">:</span> /img/wechat.jpg
+      <span class="token key atrule">link</span><span class="token punctuation">:</span>
+      <span class="token key atrule">text</span><span class="token punctuation">:</span> 微信
+    <span class="token punctuation">-</span> <span class="token key atrule">img</span><span class="token punctuation">:</span> /img/alipay.jpg
+      <span class="token key atrule">link</span><span class="token punctuation">:</span>
+      <span class="token key atrule">text</span><span class="token punctuation">:</span> 支付寶<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-post-donate.png"></p>
+<h3 id="TOC"><a href="#TOC" class="headerlink" title="TOC"></a>TOC</h3><p>在文章頁，會有一個目錄，用於顯示TOC。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">toc</span><span class="token punctuation">:</span>
+  <span class="token key atrule">post</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">page</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">number</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">expand</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">style_simple</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># for post</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<table>
+<thead>
+<tr>
+<th>屬性</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>post</td>
+<td>文章頁是否顯示 TOC</td>
+</tr>
+<tr>
+<td>page</td>
+<td>普通頁面是否顯示 TOC</td>
+</tr>
+<tr>
+<td>number</td>
+<td>是否顯示章節數</td>
+</tr>
+<tr>
+<td>expand</td>
+<td>是否展開 TOC</td>
+</tr>
+<tr>
+<td>style_simple</td>
+<td>簡潔模式（側邊欄<strong>只</strong>顯示 TOC, 只對文章頁有效 ）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>Toc PC</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-toc-pc-new.png"></p>
+<blockquote>
+<p>Toc Mobile</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-toc-mobile-new.png"></p>
+<blockquote>
+<p>style_simple: true</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-toc-style-simple.png" alt="image-20201209232104167"></p>
+<h4 id="為特定的文章配置"><a href="#為特定的文章配置" class="headerlink" title="為特定的文章配置"></a>為特定的文章配置</h4><p>在你的文章<code>md</code>文件的頭部，加入<code>toc_number</code>和<code>toc</code>，並配置<code>true</code>或者<code>false</code>即可。</p>
+<p>主題會優先判斷文章Markdown的Front-matter是否有配置，如有，則以Front-matter的配置為準。否則，以<strong>主題配置文件中</strong>的配置為準</p>
+<h3 id="相關文章"><a href="#相關文章" class="headerlink" title="相關文章"></a>相關文章</h3><p>相關文章推薦的原理是根據文章tags的比重來推薦</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">related_post</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">6</span> <span class="token comment"># 顯示推薦文章數目</span>
+  <span class="token key atrule">date_type</span><span class="token punctuation">:</span> created <span class="token comment"># or created or updated 文章日期顯示創建日或者更新日</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-releatedpost.png"></p>
+<h3 id="文章錨點"><a href="#文章錨點" class="headerlink" title="文章錨點"></a>文章錨點</h3><p>開啟文章錨點後，當你在文章頁進行滾動時，文章鏈接會根據標題ID進行替換<br>(注意: 每替換一次，會留下一個歷史記錄。所以如果一篇文章有很多錨點的話，網頁的歷史記錄會很多。)</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># anchor</span>
+<span class="token comment"># when you scroll in post , the url will update according to header id.</span>
+<span class="token key atrule">anchor</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="文章過期提醒"><a href="#文章過期提醒" class="headerlink" title="文章過期提醒"></a>文章過期提醒</h3><p>可設置是否顯示文章過期提醒，以更新時間為基準。</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> Displays outdated notice for a post (文章過期提醒)</span>
+noticeOutdate:
+  enable: true
+  style: flat # style: simple/flat
+  limit_day: 365 # When will it be shown
+  position: top # position: top/bottom
+  message_prev: It has been
+  message_next: days since the last update, the content of the article may be outdated.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><code> limit_day</code>： 距離更新時間多少天才顯示文章過期提醒</p>
+<p><code>message_prev</code> ： 天數之前的文字</p>
+<p><code>message_next</code>：天數之後的文字</p>
+<blockquote>
+<p>style: flat</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butteffly-docs-outdate-flat.png" alt="image-20200731175909296"></p>
+<blockquote>
+<p>style: simple</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-outdated-simple.png" alt="image-20200731180037968"></p>
+<h3 id="文章編輯按鈕"><a href="#文章編輯按鈕" class="headerlink" title="文章編輯按鈕"></a>文章編輯按鈕</h3><p>在文章標題旁邊顯示一個編輯按鈕，點擊會跳轉到對應的鏈接去。</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># Post edit</span>
+<span class="token comment"># Easily browse and edit blog source code online.</span>
+<span class="token key atrule">post_edit</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token comment"># url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/</span>
+  <span class="token comment"># For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/</span>
+  url<span class="token punctuation">:</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-post-edit.png" alt="image-20210130160108360"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-post-edit-2.png" alt="image-20210130160208436"></p>
+<h3 id="文章分頁按鈕"><a href="#文章分頁按鈕" class="headerlink" title="文章分頁按鈕"></a>文章分頁按鈕</h3><p>可設置分頁的邏輯，也可以關閉分頁顯示</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># post_pagination (分頁)</span>
+<span class="token comment"># value: 1 || 2 || false</span>
+<span class="token comment"># 1: The 'next post' will link to old post</span>
+<span class="token comment"># 2: The 'next post' will link to new post</span>
+<span class="token comment"># false: disable pagination</span>
+<span class="token key atrule">post_pagination</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<table>
+<thead>
+<tr>
+<th>參數</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>post_pagination: false</td>
+<td>關閉分頁按鈕</td>
+</tr>
+<tr>
+<td>post_pagination: 1</td>
+<td>下一篇顯示的是舊文章</td>
+</tr>
+<tr>
+<td>post_pagination: 2</td>
+<td>下一篇顯示的是新文章</td>
+</tr>
+</tbody></table>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-post-pagination.png" alt="image-20210130161545100"></p>
+<h2 id="頭像"><a href="#頭像" class="headerlink" title="頭像"></a>頭像</h2><p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">avatar</span><span class="token punctuation">:</span>
+  <span class="token key atrule">img</span><span class="token punctuation">:</span> /img/avatar.png
+  <span class="token key atrule">effect</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># 頭像會一直轉圈</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-avatar.png"></p>
+<h2 id="圖片描述"><a href="#圖片描述" class="headerlink" title="圖片描述"></a>圖片描述</h2><p>可開啟圖片Figcaption描述文字顯示</p>
+<p>優先顯示圖片的 title 屬性，然後是 alt 屬性</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">photofigcaption</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-photo-figcaption.png"></p>
+<h2 id="複製相關配置"><a href="#複製相關配置" class="headerlink" title="複製相關配置"></a>複製相關配置</h2><p>可配置網站是否可以複製、複製的內容是否添加版權信息</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> copy settings</span>
+<span class="token title important"><span class="token punctuation">#</span> copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)</span>
+copy:
+  enable: true
+  copyright:
+    enable: true
+    limit_count: 50<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<table>
+<thead>
+<tr>
+<th>配置</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>enable</td>
+<td>是否開啟網站複製權限</td>
+</tr>
+<tr>
+<td>copyright</td>
+<td>複製的內容後面加上版權信息</td>
+</tr>
+<tr>
+<td>enable</td>
+<td>是否開啟複製版權信息添加</td>
+</tr>
+<tr>
+<td>limit_count</td>
+<td>字數限制，當複製文字大於這個字數限制時，將在複製的內容後面加上版權信息</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>添加版權信息後</p>
+</blockquote>
+<pre class="line-numbers language-none"><code class="language-none">Lorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl. Deleted text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.
+
+
+作者: Jerry
+連結: http://localhost:4000/posts/bd3c650b/#Paragraph
+來源: Butterfly
+著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="Footer-設置"><a href="#Footer-設置" class="headerlink" title="Footer 設置"></a>Footer 設置</h2><h3 id="博客年份"><a href="#博客年份" class="headerlink" title="博客年份"></a>博客年份</h3><p><code>since</code>是一個來展示你站點起始時間的選項。它位於頁面的最底部。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">footer</span><span class="token punctuation">:</span>
+  <span class="token key atrule">owner</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">since</span><span class="token punctuation">:</span> <span class="token number">2018</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-since.png"></p>
+<h3 id="頁腳自定義文本"><a href="#頁腳自定義文本" class="headerlink" title="頁腳自定義文本"></a>頁腳自定義文本</h3><p><code>custom_text</code>是一個給你用來在頁腳自定義文本的選項。通常你可以在這裏寫聲明文本等。支持 HTML。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">custom_text</span><span class="token punctuation">:</span> Hi<span class="token punctuation">,</span> welcome to my &lt;a href="https<span class="token punctuation">:</span>//butterfly.js.org/"<span class="token punctuation">&gt;</span>blog&lt;/a<span class="token punctuation">&gt;</span><span class="token tag">!</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-footer-text.png"></p>
+<p>對於部分人需要寫 ICP 的，也可以寫在 <code>custom_text</code>裏</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">custom_text</span><span class="token punctuation">:</span> &lt;a href="icp鏈接"<span class="token punctuation">&gt;</span>&lt;img class="icp<span class="token punctuation">-</span>icon" src="icp圖片"<span class="token punctuation">&gt;</span>&lt;span<span class="token punctuation">&gt;</span>備案號：xxxxxx&lt;/span<span class="token punctuation">&gt;</span>&lt;/a<span class="token punctuation">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h2 id="右下角按鈕"><a href="#右下角按鈕" class="headerlink" title="右下角按鈕"></a>右下角按鈕</h2><h3 id="簡繁轉換"><a href="#簡繁轉換" class="headerlink" title="簡繁轉換"></a>簡繁轉換</h3><p>簡體繁體互換</p>
+<p>右下角會有簡繁轉換按鈕。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">translate</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token comment"># 默認按鈕顯示文字(網站是簡體，應設置為'default: 繁')</span>
+  <span class="token key atrule">default</span><span class="token punctuation">:</span> 簡
+  <span class="token comment">#網站默認語言，1: 繁體中文, 2: 簡體中文</span>
+  <span class="token key atrule">defaultEncoding</span><span class="token punctuation">:</span> <span class="token number">1</span>
+  <span class="token comment">#延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0</span>
+  <span class="token key atrule">translateDelay</span><span class="token punctuation">:</span> <span class="token number">0</span>
+  <span class="token comment">#當文字是簡體時，按鈕顯示的文字</span>
+  <span class="token key atrule">msgToTraditionalChinese</span><span class="token punctuation">:</span> <span class="token string">"繁"</span>
+  <span class="token comment">#當文字是繁體時，按鈕顯示的文字</span>
+  <span class="token key atrule">msgToSimplifiedChinese</span><span class="token punctuation">:</span> <span class="token string">"簡"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>簡體</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-simp.png"></p>
+<blockquote>
+<p>繁體</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-tranditional.png"></p>
+<h3 id="夜間模式"><a href="#夜間模式" class="headerlink" title="夜間模式"></a>夜間模式</h3><p>右下角會有夜間模式按鈕</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># dark mode</span>
+<span class="token key atrule">darkmode</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token comment"># dark mode和 light mode切換按鈕</span>
+  <span class="token key atrule">button</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">autoChangeMode</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-dark-mode-1.png" alt="image-20201230201029381"></p>
+<div class="note info flat"><p>V2.0.0 開始增加一個選項，可開啟自動切換light mode 和 dark mode</p>
+<p>autoChangeMode: 1  跟隨系統而變化，不支持的瀏覽器/系統將按照時間晚上6點到早上6點之間切換為 dark mode</p>
+<p>autoChangeMode: 2  只按照時間 晚上6點到早上6點之間切換為 dark mode,其餘時間為light mode</p>
+<p>autoChangeMode: false 取消自動切換</p>
+</div>
+
+<h3 id="閲讀模式"><a href="#閲讀模式" class="headerlink" title="閲讀模式"></a>閲讀模式</h3><p>閲讀模式下會去掉除文章外的內容，避免幹擾閲讀。</p>
+<p>只會出現在文章頁面，右下角會有閲讀模式按鈕。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">readmode</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-read-mode.png"></p>
+<h3 id="按鈕排序"><a href="#按鈕排序" class="headerlink" title="按鈕排序"></a>按鈕排序</h3><pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># Don't modify the following settings unless you know how they work (非必要請不要修改 )</span>
+<span class="token comment"># Choose: readmode,translate,darkmode,hideAside,toc,chat,comment</span>
+<span class="token comment"># Don't repeat 不要重複</span>
+<span class="token key atrule">rightside_item_order</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">hide</span><span class="token punctuation">:</span> <span class="token comment"># readmode,translate,darkmode,hideAside</span>
+  <span class="token key atrule">show</span><span class="token punctuation">:</span> <span class="token comment"># toc,chat,comment</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>注意： 不要重複</p>
+<h2 id="側邊欄設置"><a href="#側邊欄設置" class="headerlink" title="側邊欄設置"></a>側邊欄設置</h2><h3 id="側邊排版"><a href="#側邊排版" class="headerlink" title="側邊排版"></a>側邊排版</h3><p>可自行決定哪個項目需要顯示，可決定位置，也可以設置不顯示側邊欄。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">aside</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">hide</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">button</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">mobile</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># 手機頁面（ 顯示寬度 &lt; 768px ）是否顯示aside內容</span>
+  <span class="token key atrule">position</span><span class="token punctuation">:</span> right <span class="token comment"># left or right</span>
+  <span class="token key atrule">card_author</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">description</span><span class="token punctuation">:</span>
+    <span class="token key atrule">button</span><span class="token punctuation">:</span>
+      <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+	  <span class="token key atrule">icon</span><span class="token punctuation">:</span> fab fa<span class="token punctuation">-</span>github
+      <span class="token key atrule">text</span><span class="token punctuation">:</span> Github
+      <span class="token key atrule">link</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//github.com/jerryc127/hexo<span class="token punctuation">-</span>theme<span class="token punctuation">-</span>butterfly
+  <span class="token key atrule">card_announcement</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">content</span><span class="token punctuation">:</span> This is my Blog
+  <span class="token key atrule">card_recent_post</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">5</span> <span class="token comment"># if set 0 will show all</span>
+    <span class="token key atrule">sort</span><span class="token punctuation">:</span> date <span class="token comment"># date or updated</span>
+  <span class="token key atrule">card_categories</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">8</span> <span class="token comment"># if set 0 will show all</span>
+    <span class="token key atrule">expand</span><span class="token punctuation">:</span> none <span class="token comment"># none/true/false</span>
+  <span class="token key atrule">card_tags</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">40</span> <span class="token comment"># if set 0 will show all</span>
+    <span class="token key atrule">color</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">card_archives</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">type</span><span class="token punctuation">:</span> monthly <span class="token comment"># yearly or monthly</span>
+    <span class="token key atrule">format</span><span class="token punctuation">:</span> MMMM YYYY <span class="token comment"># eg: YYYY年MM月</span>
+    <span class="token key atrule">order</span><span class="token punctuation">:</span> <span class="token number">-1</span> <span class="token comment"># Sort of order. 1, asc for ascending; -1, desc for descending</span>
+    <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">8</span> <span class="token comment"># if set 0 will show all</span>
+  <span class="token key atrule">card_webinfo</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">post_count</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">last_push_date</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>position: left</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-aside-left.png"></p>
+<blockquote>
+<p>position: right</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-aside-right.png"></p>
+<blockquote>
+<p>card_tags color: false</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/20200426182730.png"></p>
+<blockquote>
+<p>card_tags color: true</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/20200426183025.png"></p>
+<blockquote>
+<p>aside button</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-aside-button.gif"></p>
+<h3 id="訪問人數-busuanzi-UV-和-PV"><a href="#訪問人數-busuanzi-UV-和-PV" class="headerlink" title="訪問人數 busuanzi (UV 和 PV)"></a>訪問人數 busuanzi (UV 和 PV)</h3><p>訪問 busuanzi 的<a target="_blank" rel="noopener" href="http://busuanzi.ibruce.info/">官方網站</a>查看更多的介紹。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">busuanzi</span><span class="token punctuation">:</span>
+  <span class="token key atrule">site_uv</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">site_pv</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">page_pv</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-busuanzi-site-pv.png"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-pv.png"></p>
+<h3 id="運行時間"><a href="#運行時間" class="headerlink" title="運行時間"></a>運行時間</h3><p>網頁已運行時間</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">runtimeshow</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">publish_date</span><span class="token punctuation">:</span> 6/7/2018 00<span class="token punctuation">:</span><span class="token datetime number">00:00</span>  
+  <span class="token comment">##網頁開通時間</span>
+  <span class="token comment">#格式: 月/日/年 時間</span>
+  <span class="token comment">#也可以寫成 年/月/日 時間</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-runtime.png"></p>
+<h3 id="最新評論"><a href="#最新評論" class="headerlink" title="最新評論"></a>最新評論</h3><blockquote>
+<p>3.1.0 起支持</p>
+</blockquote>
+<div class="note primary flat"><p>最新評論只會在刷新時才會去讀取，並不會實時變化</p>
+<p>由於 API 有 訪問次數限制，為了避免調用太多，主題默認存取期限為 10 分鐘。也就是説，調用後資料會存在 <em>localStorage</em> 裏，10分鐘內刷新網站只會去 <em>localStorage</em> 讀取資料。 10 分鐘期限一過，刷新頁面時才會去調取 API 讀取新的數據。（ 3.6.0 新增了 <code>storage</code> 配置，可自行配置緩存時間）</p>
+</div>
+
+
+
+<p>在側邊欄顯示最新評論板塊</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"># Aside widget <span class="token operator">-</span> Newest Comments
+<span class="token literal-property property">newest_comments</span><span class="token operator">:</span>
+  <span class="token literal-property property">enable</span><span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token literal-property property">sort_order</span><span class="token operator">:</span> # Don't modify the setting unless you know how it works
+  <span class="token literal-property property">limit</span><span class="token operator">:</span> <span class="token number">6</span>
+  <span class="token literal-property property">storage</span><span class="token operator">:</span> <span class="token number">10</span> # unit<span class="token operator">:</span> mins<span class="token punctuation">,</span> save data to localStorage
+  <span class="token literal-property property">avatar</span><span class="token operator">:</span> <span class="token boolean">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>部分配置解釋：</p>
+<table>
+<thead>
+<tr>
+<th>配置</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>limit</td>
+<td>顯示的數量</td>
+</tr>
+<tr>
+<td>storage</td>
+<td>設置緩存時間，單位 分鐘</td>
+</tr>
+<tr>
+<td>avatar</td>
+<td>是否顯示頭像</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-newest-comments.png" alt="image-20200830223037320"></p>
+<h3 id="自定義添加欄目"><a href="#自定義添加欄目" class="headerlink" title="自定義添加欄目"></a>自定義添加欄目</h3><a class="btn-beautify block green" href="/posts/ea33ab97.html" title="點擊前往"><i class="fas fa-lightbulb"></i><span>點擊前往</span></a>
+<h2 id="標籤外掛（Tag-Plugins）"><a href="#標籤外掛（Tag-Plugins）" class="headerlink" title="標籤外掛（Tag Plugins）"></a>標籤外掛（Tag Plugins）</h2><div class="note info flat"><p>標籤外掛是Hexo獨有的功能，並不是標準的Markdown格式。</p>
+<p>以下的寫法，只適用於Butterfly主題，用在其它主題上不會有效果，甚至可能會報錯。使用前請留意</p>
+</div>
+
+<div class="note warning flat"><p>標籤外掛雖然能為主題帶來一些額外的功能和UI方面的強化，但是，標籤外掛也有明顯的限制，使用時請留意。</p>
+</div>
+
+<h3 id="Note-Bootstrap-Callout"><a href="#Note-Bootstrap-Callout" class="headerlink" title="Note (Bootstrap Callout)"></a>Note (Bootstrap Callout)</h3><div class="tabs" id="note"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#note-1">通用設置</button></li><li class="tab"><button type="button" data-href="#note-2">用法 1</button></li><li class="tab"><button type="button" data-href="#note-3">用法 2（自定義 icon）</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="note-1"><p>移植於next主題，並進行修改。</p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">note</span><span class="token punctuation">:</span>
+  <span class="token comment"># Note tag style values:</span>
+  <span class="token comment">#  - simple    bs-callout old alert style. Default.</span>
+  <span class="token comment">#  - modern    bs-callout new (v2-v3) alert style.</span>
+  <span class="token comment">#  - flat      flat callout style with background, like on Mozilla or StackOverflow.</span>
+  <span class="token comment">#  - disabled  disable all CSS styles import of note tag.</span>
+  <span class="token key atrule">style</span><span class="token punctuation">:</span> simple
+  <span class="token key atrule">icons</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">border_radius</span><span class="token punctuation">:</span> <span class="token number">3</span>
+  <span class="token comment"># Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).</span>
+  <span class="token comment"># Offset also applied to label tag variables. This option can work with disabled note tag.</span>
+  <span class="token key atrule">light_bg_offset</span><span class="token punctuation">:</span> <span class="token number">0</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><code>icons</code>和<code>light_bg_offset</code>只對<em>方法一</em>生效</p>
+<p>Note 標籤外掛有兩種用法</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="note-2"><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note <span class="token url">[<span class="token content">class</span>] [<span class="token variable">no-icon</span>]</span> [style] %}
+Any content (support inline tags too.io).
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<table>
+<thead>
+<tr>
+<th>名稱</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>class</td>
+<td>【可選】標識，不同的標識有不同的配色<br>（ default / primary / success / info / warning / danger ）</td>
+</tr>
+<tr>
+<td>no-icon</td>
+<td>【可選】不顯示 icon</td>
+</tr>
+<tr>
+<td>style</td>
+<td>【可選】可以覆蓋配置中的 style <br>（simple/modern/flat/disabled）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>simple</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note simple %}
+默認 提示塊標籤
+{% endnote %}
+
+{% note default simple %}
+default 提示塊標籤
+{% endnote %}
+
+{% note primary simple %}
+primary 提示塊標籤
+{% endnote %}
+
+{% note success simple %}
+success 提示塊標籤
+{% endnote %}
+
+{% note info simple %}
+info 提示塊標籤
+{% endnote %}
+
+{% note warning simple %}
+warning 提示塊標籤
+{% endnote %}
+
+{% note danger simple %}
+danger 提示塊標籤
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note simple"><p>默認 提示塊標籤</p>
+</div>
+
+<div class="note default simple"><p>default 提示塊標籤</p>
+</div>
+
+<div class="note primary simple"><p>primary 提示塊標籤</p>
+</div>
+
+<div class="note success simple"><p>success 提示塊標籤</p>
+</div>
+
+<div class="note info simple"><p>info 提示塊標籤</p>
+</div>
+
+<div class="note warning simple"><p>warning 提示塊標籤</p>
+</div>
+
+<div class="note danger simple"><p>danger 提示塊標籤</p>
+</div>
+
+<blockquote>
+<p>modern</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note modern %}
+默認 提示塊標籤
+{% endnote %}
+
+{% note default modern %}
+default 提示塊標籤
+{% endnote %}
+
+{% note primary modern %}
+primary 提示塊標籤
+{% endnote %}
+
+{% note success modern %}
+success 提示塊標籤
+{% endnote %}
+
+{% note info modern %}
+info 提示塊標籤
+{% endnote %}
+
+{% note warning modern %}
+warning 提示塊標籤
+{% endnote %}
+
+{% note danger modern %}
+danger 提示塊標籤
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note modern"><p>默認 提示塊標籤</p>
+</div>
+
+<div class="note default modern"><p>default 提示塊標籤</p>
+</div>
+
+<div class="note primary modern"><p>primary 提示塊標籤</p>
+</div>
+
+<div class="note success modern"><p>success 提示塊標籤</p>
+</div>
+
+<div class="note info modern"><p>info 提示塊標籤</p>
+</div>
+
+<div class="note warning modern"><p>warning 提示塊標籤</p>
+</div>
+
+<div class="note danger modern"><p>danger 提示塊標籤</p>
+</div>
+
+<blockquote>
+<p>flat</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note flat %}
+默認 提示塊標籤
+{% endnote %}
+
+{% note default flat %}
+default 提示塊標籤
+{% endnote %}
+
+{% note primary flat %}
+primary 提示塊標籤
+{% endnote %}
+
+{% note success flat %}
+success 提示塊標籤
+{% endnote %}
+
+{% note info flat %}
+info 提示塊標籤
+{% endnote %}
+
+{% note warning flat %}
+warning 提示塊標籤
+{% endnote %}
+
+{% note danger flat %}
+danger 提示塊標籤
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<div class="note flat"><p>默認 提示塊標籤</p>
+</div>
+
+<div class="note default flat"><p>default 提示塊標籤</p>
+</div>
+
+<div class="note primary flat"><p>primary 提示塊標籤</p>
+</div>
+
+<div class="note success flat"><p>success 提示塊標籤</p>
+</div>
+
+<div class="note info flat"><p>info 提示塊標籤</p>
+</div>
+
+<div class="note warning flat"><p>warning 提示塊標籤</p>
+</div>
+
+<div class="note danger flat"><p>danger 提示塊標籤</p>
+</div>
+
+<blockquote>
+<p>disabled</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note disabled %}
+默認 提示塊標籤
+{% endnote %}
+
+{% note default disabled %}
+default 提示塊標籤
+{% endnote %}
+
+{% note primary disabled %}
+primary 提示塊標籤
+{% endnote %}
+
+{% note success disabled %}
+success 提示塊標籤
+{% endnote %}
+
+{% note info disabled %}
+info 提示塊標籤
+{% endnote %}
+
+{% note warning disabled %}
+warning 提示塊標籤
+{% endnote %}
+
+{% note danger disabled %}
+danger 提示塊標籤
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note disabled"><p>默認 提示塊標籤</p>
+</div>
+
+<div class="note default disabled"><p>default 提示塊標籤</p>
+</div>
+
+<div class="note primary disabled"><p>primary 提示塊標籤</p>
+</div>
+
+<div class="note success disabled"><p>success 提示塊標籤</p>
+</div>
+
+<div class="note info disabled"><p>info 提示塊標籤</p>
+</div>
+
+<div class="note warning disabled"><p>warning 提示塊標籤</p>
+</div>
+
+<div class="note danger disabled"><p>danger 提示塊標籤</p>
+</div>
+
+<blockquote>
+<p>no-icon</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note no-icon %}
+默認 提示塊標籤
+{% endnote %}
+
+{% note default no-icon %}
+default 提示塊標籤
+{% endnote %}
+
+{% note primary no-icon %}
+primary 提示塊標籤
+{% endnote %}
+
+{% note success no-icon %}
+success 提示塊標籤
+{% endnote %}
+
+{% note info no-icon %}
+info 提示塊標籤
+{% endnote %}
+
+{% note warning no-icon %}
+warning 提示塊標籤
+{% endnote %}
+
+{% note danger no-icon %}
+danger 提示塊標籤
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note no-icon flat"><p>默認 提示塊標籤</p>
+</div>
+
+<div class="note default no-icon flat"><p>default 提示塊標籤</p>
+</div>
+
+<div class="note primary no-icon flat"><p>primary 提示塊標籤</p>
+</div>
+
+<div class="note success no-icon flat"><p>success 提示塊標籤</p>
+</div>
+
+<div class="note info no-icon flat"><p>info 提示塊標籤</p>
+</div>
+
+<div class="note warning no-icon flat"><p>warning 提示塊標籤</p>
+</div>
+
+<div class="note danger no-icon flat"><p>danger 提示塊標籤</p>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="note-3"><blockquote>
+<p>3.2.0 以上版本支</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note <span class="token url">[<span class="token content">color</span>] [<span class="token variable">icon</span>]</span> [style] %}
+Any content (support inline tags too.io).
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<table>
+<thead>
+<tr>
+<th>名稱</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>color</td>
+<td>【可選】顔色 <br>(default / blue / pink / red / purple / orange / green)</td>
+</tr>
+<tr>
+<td>icon</td>
+<td>【可選】可配置自定義 icon (只支持 fontawesome 圖標, 也可以配置 no-icon )</td>
+</tr>
+<tr>
+<td>style</td>
+<td>【可選】可以覆蓋配置中的 style<br>（simple/modern/flat/disabled）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>simple</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note 'fab fa-cc-visa' simple %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note blue 'fas fa-bullhorn' simple %}
+2021年快到了....
+{% endnote %}
+{% note pink 'fas fa-car-crash' simple %}
+小心開車 安全至上
+{% endnote %}
+{% note red 'fas fa-fan' simple%}
+這是三片呢？還是四片？
+{% endnote %}
+{% note orange 'fas fa-battery-half' simple %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note purple 'far fa-hand-scissors' simple %}
+剪刀石頭布
+{% endnote %}
+{% note green 'fab fa-internet-explorer' simple %}
+前端最討厭的瀏覽器
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note icon simple"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p>
+</div>
+<div class="note pink icon simple"><i class="note-icon fas fa-car-crash"></i><p>小心開車 安全至上</p>
+</div>
+<div class="note red icon simple"><i class="note-icon fas fa-fan"></i><p>這是三片呢？還是四片？</p>
+</div>
+<div class="note orange icon simple"><i class="note-icon fas fa-battery-half"></i><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note purple icon simple"><i class="note-icon far fa-hand-scissors"></i><p>剪刀石頭布</p>
+</div>
+<div class="note green icon simple"><i class="note-icon fab fa-internet-explorer"></i><p>前端最討厭的瀏覽器</p>
+</div>
+
+<blockquote>
+<p>modern</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note 'fab fa-cc-visa' modern %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note blue 'fas fa-bullhorn' modern %}
+2021年快到了....
+{% endnote %}
+{% note pink 'fas fa-car-crash' modern %}
+小心開車 安全至上
+{% endnote %}
+{% note red 'fas fa-fan' modern%}
+這是三片呢？還是四片？
+{% endnote %}
+{% note orange 'fas fa-battery-half' modern %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note purple 'far fa-hand-scissors' modern %}
+剪刀石頭布
+{% endnote %}
+{% note green 'fab fa-internet-explorer' modern %}
+前端最討厭的瀏覽器
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note icon modern"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p>
+</div>
+<div class="note pink icon modern"><i class="note-icon fas fa-car-crash"></i><p>小心開車 安全至上</p>
+</div>
+<div class="note red icon modern"><i class="note-icon fas fa-fan"></i><p>這是三片呢？還是四片？</p>
+</div>
+<div class="note orange icon modern"><i class="note-icon fas fa-battery-half"></i><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note purple icon modern"><i class="note-icon far fa-hand-scissors"></i><p>剪刀石頭布</p>
+</div>
+<div class="note green icon modern"><i class="note-icon fab fa-internet-explorer"></i><p>前端最討厭的瀏覽器</p>
+</div>
+
+<blockquote>
+<p>flat</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note 'fab fa-cc-visa' flat %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note blue 'fas fa-bullhorn' flat %}
+2021年快到了....
+{% endnote %}
+{% note pink 'fas fa-car-crash' flat %}
+小心開車 安全至上
+{% endnote %}
+{% note red 'fas fa-fan' flat%}
+這是三片呢？還是四片？
+{% endnote %}
+{% note orange 'fas fa-battery-half' flat %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note purple 'far fa-hand-scissors' flat %}
+剪刀石頭布
+{% endnote %}
+{% note green 'fab fa-internet-explorer' flat %}
+前端最討厭的瀏覽器
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note icon flat"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p>
+</div>
+<div class="note pink icon flat"><i class="note-icon fas fa-car-crash"></i><p>小心開車 安全至上</p>
+</div>
+<div class="note red icon flat"><i class="note-icon fas fa-fan"></i><p>這是三片呢？還是四片？</p>
+</div>
+<div class="note orange icon flat"><i class="note-icon fas fa-battery-half"></i><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note purple icon flat"><i class="note-icon far fa-hand-scissors"></i><p>剪刀石頭布</p>
+</div>
+<div class="note green icon flat"><i class="note-icon fab fa-internet-explorer"></i><p>前端最討厭的瀏覽器</p>
+</div>
+
+<blockquote>
+<p>disabled</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note 'fab fa-cc-visa' disabled %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note blue 'fas fa-bullhorn' disabled %}
+2021年快到了....
+{% endnote %}
+{% note pink 'fas fa-car-crash' disabled %}
+小心開車 安全至上
+{% endnote %}
+{% note red 'fas fa-fan' disabled %}
+這是三片呢？還是四片？
+{% endnote %}
+{% note orange 'fas fa-battery-half' disabled %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note purple 'far fa-hand-scissors' disabled %}
+剪刀石頭布
+{% endnote %}
+{% note green 'fab fa-internet-explorer' disabled %}
+前端最討厭的瀏覽器
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note icon disabled"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note blue icon disabled"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p>
+</div>
+<div class="note pink icon disabled"><i class="note-icon fas fa-car-crash"></i><p>小心開車 安全至上</p>
+</div>
+<div class="note red icon disabled"><i class="note-icon fas fa-fan"></i><p>這是三片呢？還是四片？</p>
+</div>
+<div class="note orange icon disabled"><i class="note-icon fas fa-battery-half"></i><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note purple icon disabled"><i class="note-icon far fa-hand-scissors"></i><p>剪刀石頭布</p>
+</div>
+<div class="note green icon disabled"><i class="note-icon fab fa-internet-explorer"></i><p>前端最討厭的瀏覽器</p>
+</div>
+
+<blockquote>
+<p>no-icon</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% note no-icon %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note blue no-icon %}
+2021年快到了....
+{% endnote %}
+{% note pink no-icon %}
+小心開車 安全至上
+{% endnote %}
+{% note red no-icon %}
+這是三片呢？還是四片？
+{% endnote %}
+{% note orange no-icon %}
+你是刷 Visa 還是 UnionPay
+{% endnote %}
+{% note purple no-icon %}
+剪刀石頭布
+{% endnote %}
+{% note green no-icon %}
+前端最討厭的瀏覽器
+{% endnote %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="note no-icon flat"><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note blue no-icon flat"><p>2021年快到了….</p>
+</div>
+<div class="note pink no-icon flat"><p>小心開車 安全至上</p>
+</div>
+<div class="note red no-icon flat"><p>這是三片呢？還是四片？</p>
+</div>
+<div class="note orange no-icon flat"><p>你是刷 Visa 還是 UnionPay</p>
+</div>
+<div class="note purple no-icon flat"><p>剪刀石頭布</p>
+</div>
+<div class="note green no-icon flat"><p>前端最討厭的瀏覽器</p>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h3 id="Gallery相冊圖庫"><a href="#Gallery相冊圖庫" class="headerlink" title="Gallery相冊圖庫"></a>Gallery相冊圖庫</h3><blockquote>
+<p>2.2.0以上提供</p>
+</blockquote>
+<p>一個圖庫集合。</p>
+<p>寫法</p>
+<pre class="line-numbers language-none"><code class="language-none">&lt;div class="gallery-group-main"&gt;
+{% galleryGroup name description link img-url %}
+{% galleryGroup name description link img-url %}
+{% galleryGroup name description link img-url %}
+&lt;/div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ul>
+<li>name：圖庫名字</li>
+<li>description：圖庫描述</li>
+<li>link：連接到對應相冊的地址</li>
+<li>img-url：圖庫封面的地址</li>
+</ul>
+<p>例如：</p>
+<pre class="line-numbers language-none"><code class="language-none">&lt;div class="gallery-group-main"&gt;
+{% galleryGroup '壁紙' '收藏的一些壁紙' '/Gallery/wallpaper' https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png %}
+{% galleryGroup '漫威' '關於漫威的圖片' '/Gallery/marvel' https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg %}
+{% galleryGroup 'OH MY GIRL' '關於OH MY GIRL的圖片' '/Gallery/ohmygirl' https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg %}
+&lt;/div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="gallery-group-main">
+
+  <figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png" alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">壁紙</div>
+  <p>收藏的一些壁紙</p>
+  <a href="/Gallery/wallpaper"></a>
+  </figcaption>
+  </figure>
+  
+
+  <figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg" alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">漫威</div>
+  <p>關於漫威的圖片</p>
+  <a href="/Gallery/marvel"></a>
+  </figcaption>
+  </figure>
+  
+
+  <figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg" alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">OH MY GIRL</div>
+  <p>關於OH MY GIRL的圖片</p>
+  <a href="/Gallery/ohmygirl"></a>
+  </figcaption>
+  </figure>
+  
+</div>
+
+<h3 id="Gallery相冊"><a href="#Gallery相冊" class="headerlink" title="Gallery相冊"></a>Gallery相冊</h3><blockquote>
+<p>2.0.0以上提供</p>
+</blockquote>
+<p>區別於舊版的Gallery相冊,新的Gallery相冊會自動根據圖片長度進行排版，書寫也更加方便，與markdown格式一樣。可根據需要插入到相應的md。</p>
+<p>寫法:</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% gallery %}
+markdown 圖片格式
+{% endgallery %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>例如</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% gallery %}
+![](https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg)
+![](https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg)
+![](https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg)
+![](https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg)
+![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)
+![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)
+![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)
+![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)
+{% endgallery %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="fj-gallery"><p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg"><br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg"><br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg"><br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg"><br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg"><br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg"><br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg"><br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg"></p>
+          </div>
+
+<h3 id="tag-hide"><a href="#tag-hide" class="headerlink" title="tag-hide"></a>tag-hide</h3><div class="note warning flat"><p>2.2.0以上提供</p>
+<p>請注意，tag-hide內的標簽外掛content內都不建議有h1 - h6 等標題。因為Toc會把隱藏內容標題也顯示出來，而且當滾動屏幕時，如果隱藏內容沒有顯示出來，會導致Toc的滾動出現異常。</p>
+</div>
+
+<p>如果你想把一些文字、內容隱藏起來，並提供按鈕讓用戶點擊顯示。可以使用這個標籤外掛。</p>
+<div class="tabs" id="tag-hide"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#tag-hide-1">Inline</button></li><li class="tab"><button type="button" data-href="#tag-hide-2">Block</button></li><li class="tab"><button type="button" data-href="#tag-hide-3">Toggle</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="tag-hide-1"><p><code>inline</code> 在文本里面添加按鈕隱藏內容，只限文字</p>
+<p>( content不能包含英文逗號，可用<code>&amp;sbquo;</code>)</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% hideInline content,display,bg,color %}<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ul>
+<li><p>content: 文本內容</p>
+</li>
+<li><p>display: 按鈕顯示的文字(可選)</p>
+</li>
+<li><p>bg: 按鈕的背景顏色(可選)</p>
+</li>
+<li><p>color: 按鈕文字的顏色(可選)</p>
+</li>
+</ul>
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">哪個英文字母最酷？ {% hideInline 因為西裝褲(C裝酷),查看答案,#FF7242,#fff %}
+
+門裏站着一個人? {% hideInline 閃 %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>哪個英文字母最酷？ <span class="hide-inline"><button type="button" class="hide-button" style="background-color: #FF7242;color: #fff">查看答案<br>  </button><span class="hide-content">因為西裝褲(C裝酷)</span></span></p>
+<p>門裏站着一個人? <span class="hide-inline"><button type="button" class="hide-button" style="">Click<br>  </button><span class="hide-content">閃</span></span></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="tag-hide-2"><p><code>block</code>獨立的block隱藏內容，可以隱藏很多內容，包括圖片，代碼塊等等</p>
+<p>( display 不能包含英文逗號，可用<code>&amp;sbquo;</code>)</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% hideBlock display,bg,color %}
+content
+{% endhideBlock %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<ul>
+<li>content: 文本內容</li>
+<li>display: 按鈕顯示的文字(可選)</li>
+<li>bg: 按鈕的背景顏色(可選)</li>
+<li>color: 按鈕文字的顏色(可選)</li>
+</ul>
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<pre class="line-numbers language-mark" data-language="mark"><code class="language-mark">查看答案
+{% hideBlock 查看答案 %}
+傻子，怎麼可能有答案
+{% endhideBlock %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>查看答案</p>
+<div class="hide-block"><button type="button" class="hide-button" style="">查看答案
+    </button><div class="hide-content"><p>傻子，怎麼可能有答案</p>
+</div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="tag-hide-3"><blockquote>
+<p>2.3.0以上支持</p>
+</blockquote>
+<p>如果你需要展示的內容太多，可以把它隱藏在收縮框裏，需要時再把它展開。</p>
+<p>( display 不能包含英文逗號，可用<code>&amp;sbquo;</code>)</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% hideToggle display,bg,color %}
+content
+{% endhideToggle %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% hideToggle Butterfly安裝方法 %}
+在你的博客根目錄裏
+
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+
+如果想要安裝比較新的dev分支，可以
+
+git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+
+{% endhideToggle %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<details class="toggle"><summary class="toggle-button" style="">Butterfly安裝方法</summary><div class="toggle-content"><p>在你的博客根目錄裏</p>
+<p>git clone -b master <a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly.git">https://github.com/jerryc127/hexo-theme-butterfly.git</a> themes/Butterfly</p>
+<p>如果想要安裝比較新的dev分支，可以</p>
+<p>git clone -b dev <a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly.git">https://github.com/jerryc127/hexo-theme-butterfly.git</a> themes/Butterfly</p>
+</div></details><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h3 id="mermaid"><a href="#mermaid" class="headerlink" title="mermaid"></a>mermaid</h3><p>使用mermaid標籤可以繪製Flowchart（流程圖）、Sequence diagram（時序圖 ）、Class Diagram（類別圖）、State Diagram（狀態圖）、Gantt（甘特圖）和Pie Chart（圓形圖），具體可以查看<a target="_blank" rel="noopener" href="https://mermaid-js.github.io/mermaid/#/">mermaid文檔</a></p>
+<p>修改 <code>主題配置文件</code></p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># mermaid</span>
+<span class="token comment"># see https://github.com/mermaid-js/mermaid</span>
+<span class="token key atrule">mermaid</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token comment"># built-in themes: default/forest/dark/neutral</span>
+  <span class="token key atrule">theme</span><span class="token punctuation">:</span>
+    <span class="token key atrule">light</span><span class="token punctuation">:</span> default
+    <span class="token key atrule">dark</span><span class="token punctuation">:</span> dark<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>寫法：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% mermaid %}
+內容
+{% endmermaid %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>例如：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% mermaid %}
+pie
+    title Key elements in Product X
+    "Calcium" : 42.96
+    "Potassium" : 50.05
+    "Magnesium" : 10.01
+    "Iron" :  5
+{% endmermaid %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-mermaid.png"></p>
+<h3 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h3><p>移植於next主題</p>
+<p>使用方法</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% tabs Unique name, [index] %}
+<span class="token comment">&lt;!-- tab [Tab caption] [@icon] --&gt;</span>
+Any content (support inline tags too).
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+{% endtabs %}
+
+Unique name   : Unique name of tabs block tag without comma.
+                Will be used in #id's as prefix for each tab with their index numbers.
+                If there are whitespaces in name, for generate #id all whitespaces will replaced by dashes.
+                Only for current url of post/page must be unique!
+[index]       : Index number of active tab.
+                If not specified, first tab (1) will be selected.
+                If index is -1, no tab will be selected. It's will be something like spoiler.
+                Optional parameter.
+[Tab caption] : Caption of current tab.
+                If not caption specified, unique name with tab index suffix will be used as caption of tab.
+                If not caption specified, but specified icon, caption will empty.
+                Optional parameter.
+[@icon]       : FontAwesome icon name (full-name, look like 'fas fa-font')
+                Can be specified with or without space; e.g. 'Tab caption @icon' similar to 'Tab caption@icon'.
+                Optional parameter.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>Demo 1 - 預設選擇第一個【默認】</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% tabs test1 %}
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 1.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 2.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 3.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+{% endtabs %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<blockquote>
+<p>Demo 2 - 預設選擇tabs</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% tabs test2, 3 %}
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 1.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 2.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 3.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+{% endtabs %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<div class="tabs" id="test2"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test2-1">test2 1</button></li><li class="tab"><button type="button" data-href="#test2-2">test2 2</button></li><li class="tab active"><button type="button" data-href="#test2-3">test2 3</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test2-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test2-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content active" id="test2-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<blockquote>
+<p>Demo 3 - 沒有預設值</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% tabs test3, -1 %}
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 1.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 2.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+
+<span class="token comment">&lt;!-- tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This is Tab 3.</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+{% endtabs %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">test3 1</button></li><li class="tab"><button type="button" data-href="#test3-2">test3 2</button></li><li class="tab"><button type="button" data-href="#test3-3">test3 3</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<blockquote>
+<p>Demo 4 - 自定義Tab名 + 只有icon + icon和Tab名</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% tabs test4 %}
+<span class="token comment">&lt;!-- tab 第一個Tab --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">tab名字為第一個Tab</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+
+<span class="token comment">&lt;!-- tab @fab fa-apple-pay --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">只有圖標 沒有Tab名字</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+
+<span class="token comment">&lt;!-- tab 炸彈@fas fa-bomb --&gt;</span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">名字+icon</span><span class="token punctuation">**</span></span>
+<span class="token comment">&lt;!-- endtab --&gt;</span>
+{% endtabs %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">第一個Tab</button></li><li class="tab"><button type="button" data-href="#test4-2"><i class="fab fa-apple-pay" style="text-align: center;"></i></button></li><li class="tab"><button type="button" data-href="#test4-3"><i class="fas fa-bomb"></i>炸彈</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><p><strong>tab名字為第一個Tab</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><p><strong>只有圖標 沒有Tab名字</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-3"><p><strong>名字+icon</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h3 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h3><blockquote>
+<p>3.0以上適用</p>
+</blockquote>
+<p>使用方法：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% btn [url],[text],[icon],<span class="token url">[<span class="token content">color</span>] [<span class="token variable">style</span>]</span> <span class="token url">[<span class="token content">layout</span>] [<span class="token variable">position</span>]</span> [size] %}
+
+[url]         : 鏈接
+[text]        : 按鈕文字
+[icon]        : [可選] 圖標
+[color]       : [可選] 按鈕背景顔色(默認style時）
+                      按鈕字體和邊框顔色(outline時)
+                      default/blue/pink/red/purple/orange/green
+[style]       : [可選] 按鈕樣式 默認實心
+                      outline/留空
+[layout]      : [可選] 按鈕佈局 默認為line
+                      block/留空
+[position]    : [可選] 按鈕位置 前提是設置了layout為block 默認為左邊
+                      center/right/留空
+[size]        : [可選] 按鈕大小
+                      larger/留空<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">This is my website, click the button {% btn 'https://butterfly.js.org/',Butterfly %}
+This is my website, click the button {% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right %}
+This is my website, click the button {% btn 'https://butterfly.js.org/',Butterfly,,outline %}
+This is my website, click the button {% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,outline %}
+This is my website, click the button {% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,larger %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>This is my website, click the button <a class="btn-beautify " target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify " target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify outline" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify outline" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a></p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,block %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,block center larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,block right outline larger %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<a class="btn-beautify block" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify block center larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify block right outline larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+
+<p><strong>more than one button in center</strong></p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,blue larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,pink larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,red larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,purple larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,orange larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,green larger %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<a class="btn-beautify larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify blue larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify pink larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify red larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify purple larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify orange larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify green larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn-center<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,outline larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,outline blue larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,outline pink larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,outline red larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,outline purple larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,outline orange larger %}
+{% btn 'https://butterfly.js.org/',Butterfly,far fa-hand-point-right,outline green larger %}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="btn-center">
+<a class="btn-beautify outline larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline blue larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline pink larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline red larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline purple larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline orange larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+<a class="btn-beautify outline green larger" target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
+</div>
+
+<h3 id="inlineImg"><a href="#inlineImg" class="headerlink" title="inlineImg"></a>inlineImg</h3><p>主題中的圖片都是默認以<code>塊級元素</code>顯示，如果你想以<code>內聯元素</code>顯示，可以使用這個標簽外掛。</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% inlineImg <span class="token url">[<span class="token content">src</span>] [<span class="token variable">height</span>]</span> %}
+
+[src]      :    圖片鏈接
+[height]   ：   圖片高度限制【可選】<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">你看我長得漂亮不
+
+![](https://i.loli.net/2021/03/19/2P6ivUGsdaEXSFI.png)
+
+我覺得很漂亮 {% inlineImg https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png 150px %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/hexo-theme-butterfly-docs-inlineimg.png" alt="image-20210319001204045"></p>
+<h3 id="label"><a href="#label" class="headerlink" title="label"></a>label</h3><blockquote>
+<p>3.7.5 及以上版本適用</p>
+</blockquote>
+<p>高亮所需的文字</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% label text color %}<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<table>
+<thead>
+<tr>
+<th>參數</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>text</td>
+<td>文字</td>
+</tr>
+<tr>
+<td>color</td>
+<td>【可選】背景顏色，默認為 <code>default</code><br>default/blue/pink/red/purple/orange/green</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">臣亮言：{% label 先帝 %}創業未半，而{% label 中道崩殂 blue %}。今天下三分，{% label 益州疲敝 pink %}，此誠{% label 危急存亡之秋 red %}也！然侍衞之臣，不懈於內；{% label 忠志之士 purple %}，忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。誠宜開張聖聽，以光先帝遺德，恢弘志士之氣；不宜妄自菲薄，引喻失義，以塞忠諫之路也。
+宮中、府中，俱為一體；陟罰臧否，不宜異同。若有{% label 作奸 orange %}、{% label 犯科 green %}，及為忠善者，宜付有司，論其刑賞，以昭陛下平明之治；不宜偏私，使內外異法也。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>臣亮言：<mark class="hl-label default">先帝</mark> 創業未半，而<mark class="hl-label blue">中道崩殂</mark> 。今天下三分，<mark class="hl-label pink">益州疲敝</mark> ，此誠<mark class="hl-label red">危急存亡之秋</mark> 也！然侍衞之臣，不懈於內；<mark class="hl-label purple">忠志之士</mark> ，忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。誠宜開張聖聽，以光先帝遺德，恢弘志士之氣；不宜妄自菲薄，引喻失義，以塞忠諫之路也。</p>
+<p>宮中、府中，俱為一體；陟罰臧否，不宜異同。若有<mark class="hl-label orange">作奸</mark> 、<mark class="hl-label green">犯科</mark> ，及為忠善者，宜付有司，論其刑賞，以昭陛下平明之治；不宜偏私，使內外異法也。</p>
+<h3 id="timeline"><a href="#timeline" class="headerlink" title="timeline"></a>timeline</h3><blockquote>
+<p>4.0.0 以上支持</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% timeline title,color %}
+<span class="token comment">&lt;!-- timeline title --&gt;</span>
+xxxxx
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+<span class="token comment">&lt;!-- timeline title --&gt;</span>
+xxxxx
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+{% endtimeline %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<table>
+<thead>
+<tr>
+<th>參數</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>title</td>
+<td>標題/時間線</td>
+</tr>
+<tr>
+<td>color</td>
+<td>timeline 顏色<br>default(留空) / blue / pink / red / purple / orange / green</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% timeline 2022 %}
+<span class="token comment">&lt;!-- timeline 01-02 --&gt;</span>
+這是測試頁面
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+{% endtimeline %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="timeline undefined"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2022</p>
+</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>01-02</p>
+</div></div><div class="timeline-item-content"><p>這是測試頁面</p>
+</div></div></div>
+
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% timeline 2022,blue %}
+<span class="token comment">&lt;!-- timeline 01-02 --&gt;</span>
+這是測試頁面
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+{% endtimeline %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="timeline blue"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2022</p>
+</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>01-02</p>
+</div></div><div class="timeline-item-content"><p>這是測試頁面</p>
+</div></div></div>
+
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% timeline 2022,pink %}
+<span class="token comment">&lt;!-- timeline 01-02 --&gt;</span>
+這是測試頁面
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+{% endtimeline %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="timeline pink"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2022</p>
+</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>01-02</p>
+</div></div><div class="timeline-item-content"><p>這是測試頁面</p>
+</div></div></div>
+
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% timeline 2022,red %}
+<span class="token comment">&lt;!-- timeline 01-02 --&gt;</span>
+這是測試頁面
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+{% endtimeline %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="timeline red"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2022</p>
+</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>01-02</p>
+</div></div><div class="timeline-item-content"><p>這是測試頁面</p>
+</div></div></div>
+
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% timeline 2022,purple %}
+<span class="token comment">&lt;!-- timeline 01-02 --&gt;</span>
+這是測試頁面
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+{% endtimeline %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="timeline purple"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2022</p>
+</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>01-02</p>
+</div></div><div class="timeline-item-content"><p>這是測試頁面</p>
+</div></div></div>
+
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% timeline 2022,orange %}
+<span class="token comment">&lt;!-- timeline 01-02 --&gt;</span>
+這是測試頁面
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+{% endtimeline %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="timeline orange"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2022</p>
+</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>01-02</p>
+</div></div><div class="timeline-item-content"><p>這是測試頁面</p>
+</div></div></div>
+
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% timeline 2022,green %}
+<span class="token comment">&lt;!-- timeline 01-02 --&gt;</span>
+這是測試頁面
+<span class="token comment">&lt;!-- endtimeline --&gt;</span>
+{% endtimeline %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="timeline green"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2022</p>
+</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>01-02</p>
+</div></div><div class="timeline-item-content"><p>這是測試頁面</p>
+</div></div></div>
+
+<h3 id="flink"><a href="#flink" class="headerlink" title="flink"></a>flink</h3><blockquote>
+<p>4.1.0 支持</p>
+</blockquote>
+<p>可在任何界面插入類似友情鏈接列表效果</p>
+<p>內容格式與友情鏈接界面一樣，支持 yml 格式</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% flink %}
+xxxxxx
+{% endflink %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<blockquote>
+<p>Demo</p>
+</blockquote>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">{% flink %}
+<span class="token list punctuation">-</span> class_name: 友情鏈接
+  class_desc: 那些人，那些事
+  link_list:
+    <span class="token list punctuation">-</span> name: JerryC
+      link: https://jerryc.me/
+      avatar: https://jerryc.me/img/avatar.png
+      descr: 今日事,今日畢
+    <span class="token list punctuation">-</span> name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+
+<span class="token list punctuation">-</span> class_name: 網站
+  class_desc: 值得推薦的網站
+  link_list:
+    <span class="token list punctuation">-</span> name: Youtube
+      link: https://www.youtube.com/
+      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+      descr: 視頻網站
+    <span class="token list punctuation">-</span> name: Weibo
+      link: https://www.weibo.com/
+      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+      descr: 中國最大社交分享平臺
+    <span class="token list punctuation">-</span> name: Twitter
+      link: https://twitter.com/
+      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+      descr: 社交分享平臺
+{% endflink %}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/hexo-theme-butterfly-docs-flink-demo.png"></p>
+<a class="btn-beautify block red right larger" href="/posts/ceeb73f.html" title="⚔️ Butterfly-安裝文檔-四-主題配置-2"><i class="far fa-hand-point-right"></i><span>⚔️ Butterfly-安裝文檔-四-主題配置-2</span></a>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://a.zsd.name">张赛东</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="../https:/a.zsd.name/posts/4aa8abbe.html">https://a.zsd.name/posts/4aa8abbe.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://a.zsd.name" target="_blank">张赛东</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="../tags/%E6%95%99%E7%A8%8B/">教程</a><a class="post-meta__tags" href="../tags/Hexo/">Hexo</a><a class="post-meta__tags" href="../tags/%E4%B8%BB%E9%A1%8C/">主題</a><a class="post-meta__tags" href="../tags/butterfly/">butterfly</a></div><div class="post_share"></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://zsd.name/medias/reward/wechat.png" target="_blank"><img class="post-qr-code-img" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://zsd.name/medias/reward/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://zsd.name/medias/reward/alipay.png" target="_blank"><img class="post-qr-code-img" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://zsd.name/medias/reward/alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="ceeb73f.html"><!--img.prev-cover(src=url_for(pagination_cover) onerror=`onerror=null;src='${url_for(theme.error_img.post_page)}'` alt='cover of previous post')--><img class="prev-cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/19.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Butterfly 安裝文檔(四) 主題配置-2</div></div></a></div><div class="next-post pull-right"><a href="dc584b87.html"><!--img.next-cover(src=url_for(pagination_cover) onerror=`onerror=null;src='${url_for(theme.error_img.post_page)}'` alt='cover of next post')--><img class="next-cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/2.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Butterfly 安裝文檔(二) 主題頁面</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="ea33ab97.html" title="自定義側邊欄"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/96.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-12-30</div><div class="title">自定義側邊欄</div></div></a></div><div><a href="507c070f.html" title="Butterfly添加全局吸底Aplayer教程"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/34.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-07-31</div><div class="title">Butterfly添加全局吸底Aplayer教程</div></div></a></div><div><a href="b37b5fe3.html" title="自定義代碼配色"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/96.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-06-13</div><div class="title">自定義代碼配色</div></div></a></div><div><a href="198a4240.html" title="Butterfly 安裝文檔(七) 更新日誌"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/51.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-28</div><div class="title">Butterfly 安裝文檔(七) 更新日誌</div></div></a></div><div><a href="4073eda.html" title="Butterfly 安裝文檔(六) 進階教程"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/87.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-28</div><div class="title">Butterfly 安裝文檔(六) 進階教程</div></div></a></div><div><a href="98d20436.html" title="Butterfly 安裝文檔(五) 主題問答"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/93.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-28</div><div class="title">Butterfly 安裝文檔(五) 主題問答</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="/img/favicon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">张赛东</div><div class="author-info__description">张赛东的文苑</div></div><div class="card-info-data site-data is-center"><a href="../archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="../tags/"><div class="headline">标签</div><div class="length-num">56</div></a><a href="../categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/adong666666"><i class="fab fa-github"></i><span>关注我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://zsd.name" target="_blank" title="博客"><i class="fas fa-home"></i></a><a class="social-icon" href="https://github.com/adong666666" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:3440217568@qq.com" target="_blank" title="邮件"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/WechatQRCode.jpg" target="_blank" title="微信"><i class="fab fa-weixin"></i></a><a class="social-icon" href="tencent://AddContact/?fromId=50&amp;amp;fromSubId=1&amp;amp;subcmd=all&amp;amp;uin=3440217568" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="https://weibo.com/u/6607189957" target="_blank" title="微博"><i class="fab fa-weibo"></i></a><a class="social-icon" href="https://www.zhihu.com/people/adong666666" target="_blank" title="知乎"><i class="fab fa-zhihu"></i></a><a class="social-icon" href="https://www.facebook.com/profile.php?id=100077856845077" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a><a class="social-icon" href="https://twitter.com/ZhangSaidong" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a><a class="social-icon" href="https://zsd.name/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到张赛东的文苑！</div></div><div class="card-widget card-docs card-categories"><div class="item-headline"><i class="fas fa-car-side"></i><span>文檔目錄</span></div><div class="item-content"><ul class=card-category-list> <li class=card-category-list-item><a class=card-category-list-link href=/posts/21cfbf15.html >🚀 快速開始</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/dc584b87.html >📑 主題頁面</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/4aa8abbe.html >🛠 主題配置-1</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/ceeb73f.html >⚔️ 主題配置-2</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/98d20436.html >❓ 主題問答</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/4073eda.html >⚡️ 進階教程</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/198a4240.html >✨ 更新日誌</a></li> </ul></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AA%9E%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">語言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B6%B2%E7%AB%99%E8%B3%87%E6%96%99"><span class="toc-number">2.</span> <span class="toc-text">網站資料</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8E%E8%88%AA%E8%8F%9C%E5%96%AE"><span class="toc-number">3.</span> <span class="toc-text">導航菜單</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A2%BC"><span class="toc-number">4.</span> <span class="toc-text">代碼</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A2%BC%E9%AB%98%E4%BA%AE%E4%B8%BB%E9%A1%8C"><span class="toc-number">4.1.</span> <span class="toc-text">代碼高亮主題</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A2%BC%E8%A4%87%E8%A3%BD"><span class="toc-number">4.2.</span> <span class="toc-text">代碼複製</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A2%BC%E6%A1%86%E5%B1%95%E9%96%8B-%E9%97%9C%E9%96%89"><span class="toc-number">4.3.</span> <span class="toc-text">代碼框展開&#x2F;關閉</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A2%BC%E6%8F%9B%E8%A1%8C"><span class="toc-number">4.4.</span> <span class="toc-text">代碼換行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A2%BC%E9%AB%98%E5%BA%A6%E9%99%90%E5%88%B6"><span class="toc-number">4.5.</span> <span class="toc-text">代碼高度限制</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A4%BE%E4%BA%A4%E5%9C%96%E6%A8%99"><span class="toc-number">5.</span> <span class="toc-text">社交圖標</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E9%A0%81%E6%96%87%E7%AB%A0%E7%AF%80%E9%81%B8-%E8%87%AA%E5%8B%95%E7%AF%80%E9%81%B8%E5%92%8C%E6%96%87%E7%AB%A0%E9%A0%81description"><span class="toc-number">6.</span> <span class="toc-text">主頁文章節選(自動節選和文章頁description)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A0%82%E9%83%A8%E5%9C%96"><span class="toc-number">7.</span> <span class="toc-text">頂部圖</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A0%82"><span class="toc-number">8.</span> <span class="toc-text">文章置頂</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2"><span class="toc-number">9.</span> <span class="toc-text">文章封面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E9%A0%81%E7%9B%B8%E9%97%9C%E9%85%8D%E7%BD%AE"><span class="toc-number">10.</span> <span class="toc-text">文章頁相關配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E7%AB%A0meta%E9%A1%AF%E7%A4%BA"><span class="toc-number">10.1.</span> <span class="toc-text">文章meta顯示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E7%89%88%E6%AC%8A"><span class="toc-number">10.2.</span> <span class="toc-text">文章版權</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E6%89%93%E8%B3%9E"><span class="toc-number">10.3.</span> <span class="toc-text">文章打賞</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#TOC"><span class="toc-number">10.4.</span> <span class="toc-text">TOC</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%82%BA%E7%89%B9%E5%AE%9A%E7%9A%84%E6%96%87%E7%AB%A0%E9%85%8D%E7%BD%AE"><span class="toc-number">10.4.1.</span> <span class="toc-text">為特定的文章配置</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E9%97%9C%E6%96%87%E7%AB%A0"><span class="toc-number">10.5.</span> <span class="toc-text">相關文章</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E9%8C%A8%E9%BB%9E"><span class="toc-number">10.6.</span> <span class="toc-text">文章錨點</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E9%81%8E%E6%9C%9F%E6%8F%90%E9%86%92"><span class="toc-number">10.7.</span> <span class="toc-text">文章過期提醒</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E7%B7%A8%E8%BC%AF%E6%8C%89%E9%88%95"><span class="toc-number">10.8.</span> <span class="toc-text">文章編輯按鈕</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E5%88%86%E9%A0%81%E6%8C%89%E9%88%95"><span class="toc-number">10.9.</span> <span class="toc-text">文章分頁按鈕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A0%AD%E5%83%8F"><span class="toc-number">11.</span> <span class="toc-text">頭像</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%96%E7%89%87%E6%8F%8F%E8%BF%B0"><span class="toc-number">12.</span> <span class="toc-text">圖片描述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A4%87%E8%A3%BD%E7%9B%B8%E9%97%9C%E9%85%8D%E7%BD%AE"><span class="toc-number">13.</span> <span class="toc-text">複製相關配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Footer-%E8%A8%AD%E7%BD%AE"><span class="toc-number">14.</span> <span class="toc-text">Footer 設置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2%E5%B9%B4%E4%BB%BD"><span class="toc-number">14.1.</span> <span class="toc-text">博客年份</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A0%81%E8%85%B3%E8%87%AA%E5%AE%9A%E7%BE%A9%E6%96%87%E6%9C%AC"><span class="toc-number">14.2.</span> <span class="toc-text">頁腳自定義文本</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%B3%E4%B8%8B%E8%A7%92%E6%8C%89%E9%88%95"><span class="toc-number">15.</span> <span class="toc-text">右下角按鈕</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B0%A1%E7%B9%81%E8%BD%89%E6%8F%9B"><span class="toc-number">15.1.</span> <span class="toc-text">簡繁轉換</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9C%E9%96%93%E6%A8%A1%E5%BC%8F"><span class="toc-number">15.2.</span> <span class="toc-text">夜間模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%96%B2%E8%AE%80%E6%A8%A1%E5%BC%8F"><span class="toc-number">15.3.</span> <span class="toc-text">閲讀模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%89%E9%88%95%E6%8E%92%E5%BA%8F"><span class="toc-number">15.4.</span> <span class="toc-text">按鈕排序</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%81%B4%E9%82%8A%E6%AC%84%E8%A8%AD%E7%BD%AE"><span class="toc-number">16.</span> <span class="toc-text">側邊欄設置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%81%B4%E9%82%8A%E6%8E%92%E7%89%88"><span class="toc-number">16.1.</span> <span class="toc-text">側邊排版</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A8%AA%E5%95%8F%E4%BA%BA%E6%95%B8-busuanzi-UV-%E5%92%8C-PV"><span class="toc-number">16.2.</span> <span class="toc-text">訪問人數 busuanzi (UV 和 PV)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%81%8B%E8%A1%8C%E6%99%82%E9%96%93"><span class="toc-number">16.3.</span> <span class="toc-text">運行時間</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E6%96%B0%E8%A9%95%E8%AB%96"><span class="toc-number">16.4.</span> <span class="toc-text">最新評論</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E7%BE%A9%E6%B7%BB%E5%8A%A0%E6%AC%84%E7%9B%AE"><span class="toc-number">16.5.</span> <span class="toc-text">自定義添加欄目</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%99%E7%B1%A4%E5%A4%96%E6%8E%9B%EF%BC%88Tag-Plugins%EF%BC%89"><span class="toc-number">17.</span> <span class="toc-text">標籤外掛（Tag Plugins）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Note-Bootstrap-Callout"><span class="toc-number">17.1.</span> <span class="toc-text">Note (Bootstrap Callout)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gallery%E7%9B%B8%E5%86%8A%E5%9C%96%E5%BA%AB"><span class="toc-number">17.2.</span> <span class="toc-text">Gallery相冊圖庫</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gallery%E7%9B%B8%E5%86%8A"><span class="toc-number">17.3.</span> <span class="toc-text">Gallery相冊</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tag-hide"><span class="toc-number">17.4.</span> <span class="toc-text">tag-hide</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mermaid"><span class="toc-number">17.5.</span> <span class="toc-text">mermaid</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tabs"><span class="toc-number">17.6.</span> <span class="toc-text">Tabs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Button"><span class="toc-number">17.7.</span> <span class="toc-text">Button</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#inlineImg"><span class="toc-number">17.8.</span> <span class="toc-text">inlineImg</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#label"><span class="toc-number">17.9.</span> <span class="toc-text">label</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#timeline"><span class="toc-number">17.10.</span> <span class="toc-text">timeline</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#flink"><span class="toc-number">17.11.</span> <span class="toc-text">flink</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="../posts/31649.html" title="默写图DFS算法"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/31.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/31649.html" title="默写图DFS算法">默写图DFS算法</a><time datetime="2022-04-11T07:42:00.000Z" title="发表于 2022-04-11 15:42:00">2022-04-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="../posts/37157.html" title="默写层次遍历"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/32.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/37157.html" title="默写层次遍历">默写层次遍历</a><time datetime="2022-04-10T03:49:00.000Z" title="发表于 2022-04-10 11:49:00">2022-04-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="../posts/19234.html" title="每日60秒读懂世界"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/56.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/19234.html" title="每日60秒读懂世界">每日60秒读懂世界</a><time datetime="2022-04-06T05:23:00.000Z" title="发表于 2022-04-06 13:23:00">2022-04-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="../posts/49201.html" title="SDUTOJ1730（记忆化搜索）：数字三角形"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/71.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/49201.html" title="SDUTOJ1730（记忆化搜索）：数字三角形">SDUTOJ1730（记忆化搜索）：数字三角形</a><time datetime="2022-03-27T03:20:00.000Z" title="发表于 2022-03-27 11:20:00">2022-03-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="../posts/11317.html" title="SDUTOJ2080（动态规划）：最长公共子序列"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/101.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/11317.html" title="SDUTOJ2080（动态规划）：最长公共子序列">SDUTOJ2080（动态规划）：最长公共子序列</a><time datetime="2022-03-26T11:09:00.000Z" title="发表于 2022-03-26 19:09:00">2022-03-26</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/39.jpg)"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2022 张赛东</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i+240*i||document.documentElement.clientHeight*i+240*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body></html>

@@ -1,252 +1,152 @@
-
-
-<!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme=auto>
-
-
-
-<head>
-  <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon.png">
-  <link rel="icon" href="../img/favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  
-  <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="张赛东">
-  <meta name="keywords" content="张赛东, 湖南张赛东, 衡阳张赛东, 耒阳张赛东, 正源张赛东, 花桥张赛东, 张赛东湖南, 张赛东耒阳, 张赛东正源, 湖南工业大学张赛东, 张赛东湖南工业大学, 张赛东衡阳, 张赛东计算机, 计算机张赛东, 张赛东花桥, IT张赛东, 张赛东IT, 碧云斜, 张赛东的艺苑, 张赛东博客, 张赛东的博客, 博客张赛东, 软件工程张赛东, 张赛东软件工程">
-  
-    <meta name="description" content="PodfileKit&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; Easy Podfile ! PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub, and classifies the frameworks, which provides convenience for users to">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub (cocoapods) | 张赛东</title><meta name="keywords" content="iOS,framework"><meta name="author" content="张赛东,3440217568@qq.com"><meta name="copyright" content="张赛东"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="PodfileKit&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; Easy Podfile ! PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub, and classifies the frameworks, which provides convenience for users to">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub (cocoapods)">
-<meta property="og:url" content="https://blog.zsd.name/posts/50954.html">
+<meta property="og:url" content="https://a.zsd.name/posts/50954.html">
 <meta property="og:site_name" content="张赛东">
 <meta property="og:description" content="PodfileKit&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; Easy Podfile ! PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub, and classifies the frameworks, which provides convenience for users to">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/58.jpg">
 <meta property="article:published_time" content="2021-03-01T05:26:00.000Z">
 <meta property="article:modified_time" content="2022-01-30T17:08:41.246Z">
 <meta property="article:author" content="张赛东">
 <meta property="article:tag" content="iOS">
 <meta property="article:tag" content="framework">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif">
-  
-  
-  <title>PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub (cocoapods) - 张赛东</title>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/58.jpg"><link rel="shortcut icon" href="../img/favicon.png"><link rel="canonical" href="https://a.zsd.name/posts/50954"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":500},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 张赛东","link":"链接: ","source":"来源: 张赛东","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub (cocoapods)',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-01-31 01:08:41'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css">
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css">
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
 
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-      
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css">
-    
-  
-
-  
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
-  
-
-
-<!-- 主题依赖的图标库，不要自行修改 -->
-<link rel="stylesheet" href="https://at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
-
-<link rel="stylesheet" href="https://at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
-<link rel="stylesheet" href="/css/main.css">
-
-<!-- 自定义样式保持在最底部 -->
-
-
-  <script id="fluid-configs">
-    var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"blog.zsd.name","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":true},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
-  </script>
-  <script src="/js/utils.js"></script>
-  <script src="/js/color-schema.js"></script>
-
-<meta name="generator" content="Hexo 5.4.0">
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="atom.xml" title="张赛东" type="application/atom+xml">
-</head>
-
-
-<body>
-  <header style="height: 70vh;">
-    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
-  <div class="container">
-    <a class="navbar-brand" href="../index.html">
-      <strong>张赛东</strong>
-    </a>
-
-    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon"><span></span><span></span><span></span></div>
-    </button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto text-center">
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">
-                <i class="iconfont icon-home-fill"></i>
-                首页
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="../archives">
-                <i class="iconfont icon-archive-fill"></i>
-                归档
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="../categories">
-                <i class="iconfont icon-category-fill"></i>
-                分类
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="../tags">
-                <i class="iconfont icon-tags-fill"></i>
-                标签
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="../about">
-                <i class="iconfont icon-user-fill"></i>
-                关于
-              </a>
-            </li>
-          
-        
-        
-          <li class="nav-item" id="search-btn">
-            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
-              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
-            </a>
-          </li>
-        
-        
-          <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
-                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-
-    <div class="banner" id="banner" parallax=true
-         style="background: url('https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/25.jpg') no-repeat center center;
-           background-size: cover;">
-      <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-          <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub (cocoapods)">
-              
-            </span>
-
-            
-              <div class="mt-3">
-  
-  
-    <span class="post-meta">
-      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-03-01 13:26" pubdate>
-        2021年3月1日 下午
-      </time>
-    </span>
-  
-</div>
-
-<div class="mt-1">
-  
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-chart"></i>
-      10k 字
-    </span>
-  
-
-  
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-clock-fill"></i>
-      
-      
-      85 分钟
-    </span>
-  
-
-  
-  
-</div>
-
-            
-          </div>
-
-          
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    
-      
-
-<div class="container-fluid nopadding-x">
-  <div class="row nomargin-x">
-    <div class="d-none d-lg-block col-lg-2"></div>
-    <div class="col-lg-8 nopadding-x-md">
-      <div class="container nopadding-x-md" id="board-ctn">
-        <div class="py-5" id="board">
-          <article class="post-content mx-auto">
-            <!-- SEO header -->
-            <h1 style="display: none">PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub (cocoapods)</h1>
-            
-            <div class="markdown-body">
-              <h1 id="PodfileKit"><a href="#PodfileKit" class="headerlink" title="PodfileKit"></a>PodfileKit</h1><p>========================</p>
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="/img/favicon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="tags/"><div class="headline">标签</div><div class="length-num">56</div></a><a href="categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://zsd.name"><span> 艺苑</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://blog.zsd.name"><span> 学苑</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/11.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">张赛东</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://zsd.name"><span> 艺苑</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://blog.zsd.name"><span> 学苑</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub (cocoapods)</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-03-01T05:26:00.000Z" title="发表于 2021-03-01 13:26:00">2021-03-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-30T17:08:41.246Z" title="更新于 2022-01-31 01:08:41">2022-01-31</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="../categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/">移动开发</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub (cocoapods)"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="PodfileKit"><a href="#PodfileKit" class="headerlink" title="PodfileKit"></a>PodfileKit</h1><p>========================</p>
 <p>Easy Podfile !</p>
 <p>PodfileKit summarizes the common iOS (Swift) third-party frameworks on GitHub, and classifies the frameworks, which provides convenience for users to manage the third-party frameworks.</p>
 <h1 id="github：https-github-com-adong666666-PodfileKit"><a href="#github：https-github-com-adong666666-PodfileKit" class="headerlink" title="github：https://github.com/adong666666/PodfileKit"></a>github：<a target="_blank" rel="noopener" href="https://github.com/adong666666/PodfileKit">https://github.com/adong666666/PodfileKit</a></h1><ul>
@@ -259,248 +159,505 @@
 <li><a href="#contributing">Contributing</a></li>
 <li><a href="#license">License</a><h2 id="Set-up-Platform"><a href="#Set-up-Platform" class="headerlink" title="Set up Platform"></a>Set up Platform</h2><code>platform:ios '13.0'</code>. The <code>'13.0'</code>here is the lowest iOS system version that the app can support. You can replace it with <code>'11.0', '12.3' , '14.0'</code>and so on.</li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" srcset="/img/loading.gif" lazyload data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/SetUpPlatform.png" alt="SetUpPlatform"></p>
-<h2 id="Designated-Third-Party-framework"><a href="#Designated-Third-Party-framework" class="headerlink" title="Designated Third Party framework"></a>Designated Third Party framework</h2><p><code>Pod 'ARVideoKit'</code> specifies a framework named <code>'ARVideoKit'</code> to download. You can replace <code>'ARVideoKit'</code> with <code>'name of the framework you want to install'</code>. Specify the corresponding URL by <code>: git = &gt;</code>, specify the corresponding branch by <code>: Branch = &gt;</code>, specify the submitted version by <code>commit:</code>, specify the marked submitted version by <code>: tag = &gt;</code>, and specify the submitted version by <code>: inhibit'_ Warnings = &gt; true </code> to avoid warnings from a single framework. Of course, the relevant specifications after <code>pod' ARVideoKit</code> can be omitted. In this way, you will download the default version of the framework, which is generally the latest version suitable for your project.<br><img src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" srcset="/img/loading.gif" lazyload data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/Example.png" alt="Example"></p>
-<h2 id="Framework-Classification"><a href="#Framework-Classification" class="headerlink" title="Framework Classification"></a>Framework Classification</h2><p>The frameworks are classified, you can also classify according to your own preferences.<br><img src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" srcset="/img/loading.gif" lazyload data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/FrameworkClassification.png" alt="FrameworkClassification"><br>When there is a framework you need to use in the classification, you can delete “#“.<br><img src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" srcset="/img/loading.gif" lazyload data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/FrameworkSelection.png" alt="FrameworkSelection"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/SetUpPlatform.png" alt="SetUpPlatform"></p>
+<h2 id="Designated-Third-Party-framework"><a href="#Designated-Third-Party-framework" class="headerlink" title="Designated Third Party framework"></a>Designated Third Party framework</h2><p><code>Pod 'ARVideoKit'</code> specifies a framework named <code>'ARVideoKit'</code> to download. You can replace <code>'ARVideoKit'</code> with <code>'name of the framework you want to install'</code>. Specify the corresponding URL by <code>: git = &gt;</code>, specify the corresponding branch by <code>: Branch = &gt;</code>, specify the submitted version by <code>commit:</code>, specify the marked submitted version by <code>: tag = &gt;</code>, and specify the submitted version by <code>: inhibit'_ Warnings = &gt; true </code> to avoid warnings from a single framework. Of course, the relevant specifications after <code>pod' ARVideoKit</code> can be omitted. In this way, you will download the default version of the framework, which is generally the latest version suitable for your project.<br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/Example.png" alt="Example"></p>
+<h2 id="Framework-Classification"><a href="#Framework-Classification" class="headerlink" title="Framework Classification"></a>Framework Classification</h2><p>The frameworks are classified, you can also classify according to your own preferences.<br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/FrameworkClassification.png" alt="FrameworkClassification"><br>When there is a framework you need to use in the classification, you can delete “#“.<br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/FrameworkSelection.png" alt="FrameworkSelection"></p>
 <h2 id="Subframework"><a href="#Subframework" class="headerlink" title="Subframework"></a>Subframework</h2><p>For some frameworks, if only some of the functions in the framework are used, it is not necessary to download the whole framework, only its sub frameworks.</p>
-<p><img src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" srcset="/img/loading.gif" lazyload data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/Subframework.png" alt="Subframework"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/Subframework.png" alt="Subframework"></p>
 <h2 id="Set-up-groups"><a href="#Set-up-groups" class="headerlink" title="Set up groups"></a>Set up groups</h2><p>You can use</p>
-<figure class="highlight erlang"><table><tbody><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><pre><code class="hljs erlang">def groupName <br> pod ...<br> ...<br><span class="hljs-keyword">end</span><br></code></pre></td></tr></tbody></table></figure>
-<p>to set up groups, for example, some frameworks are used for debugging, some frameworks are used for app publishing, and some frameworks are special. After <code>target</code>, you need to replace <code>ProjectName</code> with the name of your project.<br><img src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" srcset="/img/loading.gif" lazyload data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/SetUpGroups.png" alt="SetUpGroups"></p>
+<pre class="line-numbers language-none"><code class="language-none">def groupName 
+ pod ...
+ ...
+end<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>to set up groups, for example, some frameworks are used for debugging, some frameworks are used for app publishing, and some frameworks are special. After <code>target</code>, you need to replace <code>ProjectName</code> with the name of your project.<br><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-original="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/_posts/README.en/SetUpGroups.png" alt="SetUpGroups"></p>
 <h2 id="Use"><a href="#Use" class="headerlink" title="Use"></a>Use</h2><ul>
 <li>Clone the repository to get the <code>PodFile</code> file in the repository</li>
 <li>Directly download the <code>PodFile</code> in the repository and put it under the directory of the project folder</li>
 <li>Copy the contents of the <code>PodFile</code> in the repository to your own generated <code>PodFile</code></li>
-<li>Use the terminal to open the project directory and run the following command<figure class="highlight cmake"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">$ pod <span class="hljs-keyword">install</span><br></code></pre></td></tr></tbody></table></figure>
+<li>Use the terminal to open the project directory and run the following command<pre class="line-numbers language-none"><code class="language-none">$ pod install<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="Contributing"><a href="#Contributing" class="headerlink" title="Contributing"></a>Contributing</h2></li>
 <li>Fork it !</li>
 <li>Create your feature branch: <code>git checkout -b my-new-feature</code></li>
 <li>Commit your changes: <code>git commit -am 'Add some feature'</code></li>
 <li>Push to the branch: <code>git push origin my-new-feature</code></li>
-<li>Submit a pull request<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2>PodfileKit is released under the MIT license. <a target="_blank" rel="noopener" href="https://github.com/adong666666/PodfileKit/blob/master/LICENSE">See LICENSE</a> for details.<h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><figure class="highlight ruby"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br></pre></td><td class="code"><pre><code class="hljs ruby">source <span class="hljs-string">'https://github.com/CocoaPods/Specs.git'</span><br><span class="hljs-comment"># Minimum supported iOS system version</span><br><span class="hljs-symbol">platform:</span>ios,<span class="hljs-string">'13.0'</span><br>use_frameworks!<br><span class="hljs-comment"># Inhibit the warning of the third party library</span><br>inhibit_all_warnings!<br><br><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">thirdParty</span></span><br>  <span class="hljs-comment"># eg. # AR Video</span><br>  <span class="hljs-comment"># Git specifies the web address, branch specifies the branch, commit specifies the submitted version, tag specifies the marked submitted version and inhibit_ Warnings to avoid warnings from a single framework</span><br>  <span class="hljs-comment"># pod 'ARVideoKit', :git =&gt; 'https://github.com/AFathi/ARVideoKit.git', :branch =&gt; 'swift_5', commit: "b7e1facdedd8fe16d04ef5f47c4697e89bad9f27",'~&gt; 5.0', :tag =&gt; '1.6.0', :inhibit_warnings =&gt; true</span><br>  <br>  <span class="hljs-comment"># Network Request</span><br>  <span class="hljs-comment"># pod 'Alamofire'</span><br>  <span class="hljs-comment"># pod 'Moya'</span><br>  <span class="hljs-comment"># pod 'AlamofireObjectMapper'</span><br>  <br>  <span class="hljs-comment"># JSON Parsing</span><br>  <span class="hljs-comment"># pod 'SwiftyJSON'</span><br>  <span class="hljs-comment"># pod 'HandyJSON'</span><br>  <span class="hljs-comment"># pod 'Argo'</span><br>  <span class="hljs-comment"># pod 'Sync'</span><br>  <br>  <span class="hljs-comment"># Detect Network Status</span><br>  <span class="hljs-comment"># pod 'ReachabilitySwift'</span><br>  <br>  <span class="hljs-comment"># Data Stream</span><br>  <span class="hljs-comment"># pod 'RxSwift'</span><br>  <span class="hljs-comment"># pod 'RxCocoa'</span><br>  <span class="hljs-comment"># pod 'ObjectMapper'</span><br>  <span class="hljs-comment"># pod 'ReSwift'</span><br>  <span class="hljs-comment"># pod 'ReactiveSwift'</span><br>  <span class="hljs-comment"># pod 'ReactorKit'</span><br>  <br>  <span class="hljs-comment"># Internet Pictures</span><br>  <span class="hljs-comment"># pod 'Kingfisher'</span><br>  <br>  <span class="hljs-comment"># Layout</span><br>  <span class="hljs-comment"># pod 'SnapKit'</span><br>  <span class="hljs-comment"># pod 'Cartography'</span><br>  <span class="hljs-comment"># pod 'Neon'</span><br>  <span class="hljs-comment"># pod 'AnimatedCollectionViewLayout'</span><br>  <span class="hljs-comment"># pod "BouncyLayout"</span><br>  <span class="hljs-comment"># pod 'TangramKit'</span><br>  <span class="hljs-comment"># pod 'TinyConstraints'</span><br>  <span class="hljs-comment"># pod 'LayoutKit'</span><br>  <span class="hljs-comment"># pod 'SteviaLayout'</span><br>  <br>  <span class="hljs-comment"># Animation</span><br>  <span class="hljs-comment"># pod 'Spring', :git =&gt; 'https://github.com/MengTo/Spring.git'</span><br>  <span class="hljs-comment"># pod 'lottie-ios'</span><br>  <span class="hljs-comment"># pod 'ViewAnimator'</span><br>  <span class="hljs-comment"># pod 'Advance'</span><br>  <span class="hljs-comment"># pod 'Pastel'</span><br>  <span class="hljs-comment"># pod 'YapAnimator'</span><br>  <br>  <span class="hljs-comment"># Transition</span><br>  <span class="hljs-comment"># pod 'Hero'</span><br>  <span class="hljs-comment"># pod 'Transition'</span><br>  <span class="hljs-comment"># pod 'Jelly'</span><br>  <br>  <span class="hljs-comment"># Code Rules</span><br>  <span class="hljs-comment"># pod 'SwiftLint'</span><br>  <br>  <span class="hljs-comment"># UserDefault</span><br>  <span class="hljs-comment"># pod 'SwiftyUserDefaults'</span><br>  <br>  <span class="hljs-comment"># Data Base</span><br>  <span class="hljs-comment"># pod 'SQLite.swift'</span><br>  <span class="hljs-comment"># pod 'GRDB.swift'</span><br>  <span class="hljs-comment"># pod 'FMDB'</span><br>  <span class="hljs-comment"># pod 'RealmSwift'</span><br>  <span class="hljs-comment"># pod 'YapDatabase'</span><br>  <span class="hljs-comment"># pod 'CoreStore'</span><br>  <br>  <span class="hljs-comment"># Extension</span><br>  <span class="hljs-comment"># pod 'SwifterSwift'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/SwiftStdlib'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/Foundation'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/UIKit'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/AppKit'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/MapKit'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/CoreGraphics'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/CoreLocation'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/SpriteKit'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/SceneKit'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/StoreKit'</span><br>  <span class="hljs-comment">## pod 'SwifterSwift/Dispatch'</span><br>  <span class="hljs-comment"># pod 'Then'</span><br>  <span class="hljs-comment">### Use 'SwiftUIX'</span><br>  <span class="hljs-comment"># pod 'EZSwiftExtensions'</span><br>  <br>  <span class="hljs-comment"># Resources (picture, color, localized string)</span><br>  <span class="hljs-comment"># pod 'R.swift'</span><br>  <span class="hljs-comment"># pod 'SwiftGen'</span><br>  <br>  <span class="hljs-comment"># Monitor</span><br>  <span class="hljs-comment"># pod 'Crashlytics'</span><br>  <span class="hljs-comment"># pod 'Fabric'</span><br>  <span class="hljs-comment"># pod 'Bugly'</span><br> <br>  <span class="hljs-comment"># Bind</span><br>  <span class="hljs-comment"># pod 'bond'</span><br>  <br>  <span class="hljs-comment"># Alert</span><br>  <span class="hljs-comment"># pod 'JGProgressHUD'</span><br>  <span class="hljs-comment"># pod 'SwiftMessages'</span><br>  <span class="hljs-comment"># pod 'SwiftEntryKit'</span><br>  <span class="hljs-comment"># pod 'SPPermissions'</span><br>  <span class="hljs-comment"># pod 'NotificationBanner'</span><br>  <span class="hljs-comment"># pod 'Whisper'</span><br>  <span class="hljs-comment"># pod 'PopupDialog'</span><br>  <span class="hljs-comment"># pod 'Toast-Swift'</span><br>  <br>  <span class="hljs-comment"># Side Menu</span><br>  <span class="hljs-comment"># pod 'SideMenu'</span><br>  <span class="hljs-comment"># pod 'YALSideMenu'</span><br>  <br>  <span class="hljs-comment"># Drop-down Menu</span><br>  <span class="hljs-comment"># pod 'BTNavigationDropdownMenu'</span><br>  <br>  <span class="hljs-comment"># Pagination Menu</span><br>  <span class="hljs-comment"># pod 'Parchment'</span><br>  <span class="hljs-comment"># pod 'Tabman'</span><br>  <br>  <span class="hljs-comment"># UI Controls</span><br>  <span class="hljs-comment"># pod 'LYEmptyView'</span><br>  <span class="hljs-comment"># pod 'CollectionKit'</span><br>  <span class="hljs-comment"># pod 'DifferenceKit'</span><br>  <span class="hljs-comment"># pod 'ACBadge'</span><br>  <span class="hljs-comment"># pod 'LTMorphingLabel'</span><br>  <span class="hljs-comment"># pod 'SkeletonView'</span><br>  <span class="hljs-comment"># pod 'NVActivityIndicatorView'</span><br>  <span class="hljs-comment"># pod 'FSPagerView'</span><br>  <span class="hljs-comment"># pod 'TextFieldEffects'</span><br>  <span class="hljs-comment"># pod 'SwipeCellKit'</span><br>  <span class="hljs-comment"># pod 'ScrollableGraphView'</span><br>  <span class="hljs-comment"># pod 'SCLAlertView'</span><br>  <span class="hljs-comment"># pod 'SkyFloatingLabelTextField'</span><br>  <span class="hljs-comment"># pod 'ActiveLabel'</span><br>  <span class="hljs-comment"># pod 'MarqueeLabel'</span><br>  <span class="hljs-comment"># pod 'DOFavoriteButton'</span><br>  <span class="hljs-comment"># pod 'Persei' # top menu for UITableView / UICollectionView / UIScrollView</span><br>  <span class="hljs-comment"># pod 'XLActionController'</span><br>  <span class="hljs-comment"># pod 'LNPopupController'</span><br>  <span class="hljs-comment"># pod 'CHIPageControl'</span><br>  <span class="hljs-comment"># pod 'EasyTipView'</span><br>  <span class="hljs-comment"># pod 'CardParts'</span><br>  <span class="hljs-comment"># pod 'PMAlertController'</span><br>  <span class="hljs-comment"># pod 'Segmentio'</span><br>  <span class="hljs-comment"># pod 'HGCircularSlider'</span><br>  <span class="hljs-comment"># pod 'ZLSwipeableViewSwift'</span><br>  <span class="hljs-comment"># pod 'ALCameraViewController'</span><br>  <span class="hljs-comment"># pod 'SwiftSpinner'</span><br>  <span class="hljs-comment"># pod 'Cosmos'</span><br>  <br>  <span class="hljs-comment"># Scan</span><br>  <span class="hljs-comment"># pod 'BarcodeScanner'</span><br>  <br>  <span class="hljs-comment"># QR Code</span><br>  <span class="hljs-comment"># pod 'EFQRCode'</span><br>  <br>  <span class="hljs-comment"># Scan Document</span><br>  <span class="hljs-comment"># pod 'WeScan'</span><br>  <br>  <span class="hljs-comment"># Color Picker</span><br>  <span class="hljs-comment"># pod 'ColorSlider'</span><br>  <br>  <span class="hljs-comment"># Prompt for Software Updates</span><br>  <span class="hljs-comment"># pod 'Siren'</span><br>  <br>  <span class="hljs-comment"># Machine learning Vision</span><br>  <span class="hljs-comment"># pod 'OpenCV'</span><br>  <br>  <span class="hljs-comment"># Feedback</span><br>  <span class="hljs-comment"># pod 'PinpointKit'</span><br>  <br>  <span class="hljs-comment"># Log</span><br>  <span class="hljs-comment"># pod 'SwiftyBeaver'</span><br>  <br>  <span class="hljs-comment"># Encryption</span><br>  <span class="hljs-comment"># pod 'CryptoSwift'</span><br>  <span class="hljs-comment"># pod 'RNCryptor'</span><br>  <br>  <span class="hljs-comment"># Internal Purchase</span><br>  <span class="hljs-comment"># pod 'SwiftyStoreKit'</span><br>  <br>  <span class="hljs-comment"># Calendar</span><br>  <span class="hljs-comment"># pod 'JTAppleCalendar'</span><br>  <span class="hljs-comment"># pod 'CVCalendar'</span><br>  <br>  <span class="hljs-comment"># Image Processing</span><br>  <span class="hljs-comment"># pod 'Nuke'</span><br>  <span class="hljs-comment"># pod 'Macaw'</span><br>  <br>  <span class="hljs-comment"># Image Picker</span><br>  <span class="hljs-comment"># pod 'ImagePicker'</span><br>  <span class="hljs-comment"># pod 'ZLPhotoBrowser'</span><br>  <span class="hljs-comment"># pod 'YPImagePicker'</span><br>  <span class="hljs-comment"># pod 'SKPhotoBrowser'</span><br>  <br>  <span class="hljs-comment"># Test</span><br>  <span class="hljs-comment"># pod 'Quick'</span><br>  <span class="hljs-comment"># pod 'Nimble'</span><br>  <br>  <span class="hljs-comment"># Storyboard and xib</span><br>  <span class="hljs-comment"># pod 'IBAnimatable'</span><br>  <br>  <span class="hljs-comment"># Date</span><br>  <span class="hljs-comment"># pod 'SwiftDate'</span><br>  <br>  <span class="hljs-comment"># Cache</span><br>  <span class="hljs-comment"># pod 'HanekeSwift'</span><br>  <span class="hljs-comment"># pod 'Disk'</span><br>  <span class="hljs-comment"># pod 'Cache'</span><br>  <br>  <span class="hljs-comment"># Mathematics</span><br>  <span class="hljs-comment"># pod 'Surge'</span><br>  <br>  <span class="hljs-comment"># Multithreading</span><br>  <span class="hljs-comment"># pod "AsyncSwift"</span><br>  <span class="hljs-comment"># pod 'Hydra'</span><br>  <span class="hljs-comment"># pod 'BrightFutures'</span><br>  <br>  <span class="hljs-comment"># Dependency Injection</span><br>  <span class="hljs-comment"># pod 'Swinject'</span><br>  <span class="hljs-comment"># pod 'Typhoon'</span><br>  <br>  <span class="hljs-comment"># Chat</span><br>  <span class="hljs-comment"># pod 'Chatto'</span><br>  <span class="hljs-comment"># pod 'ChattoAdditions'</span><br>  <br>  <span class="hljs-comment"># Message</span><br>  <span class="hljs-comment"># pod 'Messenger'</span><br>  <span class="hljs-comment"># pod 'MessageKit'</span><br>  <br>  <span class="hljs-comment"># Phone Number</span><br>  <span class="hljs-comment"># pod 'PhoneNumberKit'</span><br>  <br>  <span class="hljs-comment"># Functional Programming</span><br>  <span class="hljs-comment"># pod 'Swiftz'</span><br>  <br>  <span class="hljs-comment"># Device</span><br>  <span class="hljs-comment"># pod 'DeviceKit'</span><br>  <br>  <span class="hljs-comment"># Rich Text</span><br>  <span class="hljs-comment"># pod 'BonMot'</span><br>  <span class="hljs-comment"># pod 'SwiftRichString'</span><br>  <br>  <span class="hljs-comment"># Face</span><br>  <span class="hljs-comment"># pod 'FaceAware'</span><br>  <br>  <span class="hljs-comment"># Geographic Location</span><br>  <span class="hljs-comment"># pod 'SwiftLocation'</span><br>  <br>  <span class="hljs-comment"># HTML、XML</span><br>  <span class="hljs-comment"># pod 'SwiftSoup'</span><br>  <span class="hljs-comment"># pod 'Ono'</span><br>  <span class="hljs-comment"># pod 'Kanna'</span><br>  <br>  <span class="hljs-comment"># Convenient (uitableviewcells, uicollectionviewcells, convenient reuse, etc)</span><br>  <span class="hljs-comment"># pod 'Reusable'</span><br>  <br>  <span class="hljs-comment"># Localization</span><br>  <span class="hljs-comment"># pod 'Localize-Swift'</span><br>  <br>  <span class="hljs-comment"># Gif Support</span><br>  <span class="hljs-comment"># pod 'Gifu'</span><br>  <br>  <span class="hljs-comment"># Color</span><br>  <span class="hljs-comment"># pod 'DynamicColor'</span><br>  <br>  <span class="hljs-comment"># Detecting memory leaks, etc</span><br>  <span class="hljs-comment"># pod 'LifetimeTracker'</span><br>  <br>  <span class="hljs-comment"># Chart</span><br>  <span class="hljs-comment"># pod 'SwiftCharts'</span><br>  <br>  <span class="hljs-comment"># File Processing</span><br>  <span class="hljs-comment"># pod 'FileKit'</span><br>  <span class="hljs-comment"># pod 'Files'</span><br>  <br>  <span class="hljs-comment"># Theme (Adapt to Dark Mode)</span><br>  <span class="hljs-comment"># pod 'SwiftTheme'</span><br>  <br>  <span class="hljs-comment"># The status bar displays information such as FPS, CPU and memory usage, device model, app and iOS versions</span><br>  <span class="hljs-comment"># pod 'GDPerformanceView-Swift'</span><br>  <br>  <span class="hljs-comment"># Camera and Microphone</span><br>  <span class="hljs-comment"># pod 'HaishinKit.swift'</span><br>  <br>  <span class="hljs-comment"># Download</span><br>  <span class="hljs-comment"># pod 'Tiercel'</span><br>  <br>  <span class="hljs-comment"># Bluetooth</span><br>  <span class="hljs-comment"># pod 'BluetoothKit'</span><br>  <br>  <span class="hljs-comment"># Compress</span><br>  <span class="hljs-comment"># pod 'Zip'</span><br>  <br>  <span class="hljs-comment"># Keychain</span><br>  <span class="hljs-comment"># pod 'KeychainSwift'</span><br>  <br>  <span class="hljs-comment"># Social Sharing</span><br>  <span class="hljs-comment"># pod 'UMengUshare'</span><br>  <span class="hljs-comment">## pod 'UMengUShare/UI'</span><br>  <span class="hljs-comment">## pod 'UMengUShare/Social/ReducedWeChat'</span><br>  <span class="hljs-comment">## pod 'UMengUShare/Social/ReducedQQ'</span><br><span class="hljs-keyword">end</span><br><br><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">project</span></span><br><span class="hljs-keyword">end</span><br><br><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">debug</span></span><br>  <span class="hljs-comment"># App Interface Debugging</span><br>  <span class="hljs-comment"># pod 'Reveal-SDK'</span><br>  <span class="hljs-comment"># pod 'CocoaDebug'</span><br>  <br>  <span class="hljs-comment"># Network Debugging</span><br>  <span class="hljs-comment"># pod 'Bagel'</span><br>  <span class="hljs-comment"># pod 'ResponseDetective'</span><br>  <br>  <span class="hljs-comment"># Log</span><br>  <span class="hljs-comment"># pod 'XCGLogger'</span><br><span class="hljs-keyword">end</span><br>  <span class="hljs-comment"># Replace your project name here</span><br>target <span class="hljs-string">"ProjectName"</span> <span class="hljs-keyword">do</span><br>  thirdParty<br>  project<br>  debug<br><span class="hljs-keyword">end</span><br><br>post_install <span class="hljs-keyword">do</span> <span class="hljs-params">|installer_representation|</span><br>  installer_representation.pods_project.targets.each <span class="hljs-keyword">do</span> <span class="hljs-params">|target|</span><br>    target.build_configurations.each <span class="hljs-keyword">do</span> <span class="hljs-params">|config|</span><br>      <span class="hljs-comment"># Minimum supported iOS system version</span><br>      config.build_settings[<span class="hljs-string">'IPHONEOS_DEPLOYMENT_TARGET'</span>] = <span class="hljs-string">'13.0'</span><br>    <span class="hljs-keyword">end</span><br>  <span class="hljs-keyword">end</span><br><span class="hljs-keyword">end</span><br><br></code></pre></td></tr></tbody></table></figure></li>
+<li>Submit a pull request<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2>PodfileKit is released under the MIT license. <a target="_blank" rel="noopener" href="https://github.com/adong666666/PodfileKit/blob/master/LICENSE">See LICENSE</a> for details.<h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><pre class="line-numbers language-ruby" data-language="ruby"><code class="language-ruby">source <span class="token string-literal"><span class="token string">'https://github.com/CocoaPods/Specs.git'</span></span>
+<span class="token comment"># Minimum supported iOS system version</span>
+<span class="token symbol">platform</span><span class="token symbol">:ios</span><span class="token punctuation">,</span><span class="token string-literal"><span class="token string">'13.0'</span></span>
+use_frameworks<span class="token operator">!</span>
+<span class="token comment"># Inhibit the warning of the third party library</span>
+inhibit_all_warnings<span class="token operator">!</span>
+
+<span class="token keyword">def</span> <span class="token method-definition"><span class="token function">thirdParty</span></span>
+  <span class="token comment"># eg. # AR Video</span>
+  <span class="token comment"># Git specifies the web address, branch specifies the branch, commit specifies the submitted version, tag specifies the marked submitted version and inhibit_ Warnings to avoid warnings from a single framework</span>
+  <span class="token comment"># pod 'ARVideoKit', :git =&gt; 'https://github.com/AFathi/ARVideoKit.git', :branch =&gt; 'swift_5', commit: "b7e1facdedd8fe16d04ef5f47c4697e89bad9f27",'~&gt; 5.0', :tag =&gt; '1.6.0', :inhibit_warnings =&gt; true</span>
+  
+  <span class="token comment"># Network Request</span>
+  <span class="token comment"># pod 'Alamofire'</span>
+  <span class="token comment"># pod 'Moya'</span>
+  <span class="token comment"># pod 'AlamofireObjectMapper'</span>
+  
+  <span class="token comment"># JSON Parsing</span>
+  <span class="token comment"># pod 'SwiftyJSON'</span>
+  <span class="token comment"># pod 'HandyJSON'</span>
+  <span class="token comment"># pod 'Argo'</span>
+  <span class="token comment"># pod 'Sync'</span>
+  
+  <span class="token comment"># Detect Network Status</span>
+  <span class="token comment"># pod 'ReachabilitySwift'</span>
+  
+  <span class="token comment"># Data Stream</span>
+  <span class="token comment"># pod 'RxSwift'</span>
+  <span class="token comment"># pod 'RxCocoa'</span>
+  <span class="token comment"># pod 'ObjectMapper'</span>
+  <span class="token comment"># pod 'ReSwift'</span>
+  <span class="token comment"># pod 'ReactiveSwift'</span>
+  <span class="token comment"># pod 'ReactorKit'</span>
+  
+  <span class="token comment"># Internet Pictures</span>
+  <span class="token comment"># pod 'Kingfisher'</span>
+  
+  <span class="token comment"># Layout</span>
+  <span class="token comment"># pod 'SnapKit'</span>
+  <span class="token comment"># pod 'Cartography'</span>
+  <span class="token comment"># pod 'Neon'</span>
+  <span class="token comment"># pod 'AnimatedCollectionViewLayout'</span>
+  <span class="token comment"># pod "BouncyLayout"</span>
+  <span class="token comment"># pod 'TangramKit'</span>
+  <span class="token comment"># pod 'TinyConstraints'</span>
+  <span class="token comment"># pod 'LayoutKit'</span>
+  <span class="token comment"># pod 'SteviaLayout'</span>
+  
+  <span class="token comment"># Animation</span>
+  <span class="token comment"># pod 'Spring', :git =&gt; 'https://github.com/MengTo/Spring.git'</span>
+  <span class="token comment"># pod 'lottie-ios'</span>
+  <span class="token comment"># pod 'ViewAnimator'</span>
+  <span class="token comment"># pod 'Advance'</span>
+  <span class="token comment"># pod 'Pastel'</span>
+  <span class="token comment"># pod 'YapAnimator'</span>
+  
+  <span class="token comment"># Transition</span>
+  <span class="token comment"># pod 'Hero'</span>
+  <span class="token comment"># pod 'Transition'</span>
+  <span class="token comment"># pod 'Jelly'</span>
+  
+  <span class="token comment"># Code Rules</span>
+  <span class="token comment"># pod 'SwiftLint'</span>
+  
+  <span class="token comment"># UserDefault</span>
+  <span class="token comment"># pod 'SwiftyUserDefaults'</span>
+  
+  <span class="token comment"># Data Base</span>
+  <span class="token comment"># pod 'SQLite.swift'</span>
+  <span class="token comment"># pod 'GRDB.swift'</span>
+  <span class="token comment"># pod 'FMDB'</span>
+  <span class="token comment"># pod 'RealmSwift'</span>
+  <span class="token comment"># pod 'YapDatabase'</span>
+  <span class="token comment"># pod 'CoreStore'</span>
+  
+  <span class="token comment"># Extension</span>
+  <span class="token comment"># pod 'SwifterSwift'</span>
+  <span class="token comment">## pod 'SwifterSwift/SwiftStdlib'</span>
+  <span class="token comment">## pod 'SwifterSwift/Foundation'</span>
+  <span class="token comment">## pod 'SwifterSwift/UIKit'</span>
+  <span class="token comment">## pod 'SwifterSwift/AppKit'</span>
+  <span class="token comment">## pod 'SwifterSwift/MapKit'</span>
+  <span class="token comment">## pod 'SwifterSwift/CoreGraphics'</span>
+  <span class="token comment">## pod 'SwifterSwift/CoreLocation'</span>
+  <span class="token comment">## pod 'SwifterSwift/SpriteKit'</span>
+  <span class="token comment">## pod 'SwifterSwift/SceneKit'</span>
+  <span class="token comment">## pod 'SwifterSwift/StoreKit'</span>
+  <span class="token comment">## pod 'SwifterSwift/Dispatch'</span>
+  <span class="token comment"># pod 'Then'</span>
+  <span class="token comment">### Use 'SwiftUIX'</span>
+  <span class="token comment"># pod 'EZSwiftExtensions'</span>
+  
+  <span class="token comment"># Resources (picture, color, localized string)</span>
+  <span class="token comment"># pod 'R.swift'</span>
+  <span class="token comment"># pod 'SwiftGen'</span>
+  
+  <span class="token comment"># Monitor</span>
+  <span class="token comment"># pod 'Crashlytics'</span>
+  <span class="token comment"># pod 'Fabric'</span>
+  <span class="token comment"># pod 'Bugly'</span>
+ 
+  <span class="token comment"># Bind</span>
+  <span class="token comment"># pod 'bond'</span>
+  
+  <span class="token comment"># Alert</span>
+  <span class="token comment"># pod 'JGProgressHUD'</span>
+  <span class="token comment"># pod 'SwiftMessages'</span>
+  <span class="token comment"># pod 'SwiftEntryKit'</span>
+  <span class="token comment"># pod 'SPPermissions'</span>
+  <span class="token comment"># pod 'NotificationBanner'</span>
+  <span class="token comment"># pod 'Whisper'</span>
+  <span class="token comment"># pod 'PopupDialog'</span>
+  <span class="token comment"># pod 'Toast-Swift'</span>
+  
+  <span class="token comment"># Side Menu</span>
+  <span class="token comment"># pod 'SideMenu'</span>
+  <span class="token comment"># pod 'YALSideMenu'</span>
+  
+  <span class="token comment"># Drop-down Menu</span>
+  <span class="token comment"># pod 'BTNavigationDropdownMenu'</span>
+  
+  <span class="token comment"># Pagination Menu</span>
+  <span class="token comment"># pod 'Parchment'</span>
+  <span class="token comment"># pod 'Tabman'</span>
+  
+  <span class="token comment"># UI Controls</span>
+  <span class="token comment"># pod 'LYEmptyView'</span>
+  <span class="token comment"># pod 'CollectionKit'</span>
+  <span class="token comment"># pod 'DifferenceKit'</span>
+  <span class="token comment"># pod 'ACBadge'</span>
+  <span class="token comment"># pod 'LTMorphingLabel'</span>
+  <span class="token comment"># pod 'SkeletonView'</span>
+  <span class="token comment"># pod 'NVActivityIndicatorView'</span>
+  <span class="token comment"># pod 'FSPagerView'</span>
+  <span class="token comment"># pod 'TextFieldEffects'</span>
+  <span class="token comment"># pod 'SwipeCellKit'</span>
+  <span class="token comment"># pod 'ScrollableGraphView'</span>
+  <span class="token comment"># pod 'SCLAlertView'</span>
+  <span class="token comment"># pod 'SkyFloatingLabelTextField'</span>
+  <span class="token comment"># pod 'ActiveLabel'</span>
+  <span class="token comment"># pod 'MarqueeLabel'</span>
+  <span class="token comment"># pod 'DOFavoriteButton'</span>
+  <span class="token comment"># pod 'Persei' # top menu for UITableView / UICollectionView / UIScrollView</span>
+  <span class="token comment"># pod 'XLActionController'</span>
+  <span class="token comment"># pod 'LNPopupController'</span>
+  <span class="token comment"># pod 'CHIPageControl'</span>
+  <span class="token comment"># pod 'EasyTipView'</span>
+  <span class="token comment"># pod 'CardParts'</span>
+  <span class="token comment"># pod 'PMAlertController'</span>
+  <span class="token comment"># pod 'Segmentio'</span>
+  <span class="token comment"># pod 'HGCircularSlider'</span>
+  <span class="token comment"># pod 'ZLSwipeableViewSwift'</span>
+  <span class="token comment"># pod 'ALCameraViewController'</span>
+  <span class="token comment"># pod 'SwiftSpinner'</span>
+  <span class="token comment"># pod 'Cosmos'</span>
+  
+  <span class="token comment"># Scan</span>
+  <span class="token comment"># pod 'BarcodeScanner'</span>
+  
+  <span class="token comment"># QR Code</span>
+  <span class="token comment"># pod 'EFQRCode'</span>
+  
+  <span class="token comment"># Scan Document</span>
+  <span class="token comment"># pod 'WeScan'</span>
+  
+  <span class="token comment"># Color Picker</span>
+  <span class="token comment"># pod 'ColorSlider'</span>
+  
+  <span class="token comment"># Prompt for Software Updates</span>
+  <span class="token comment"># pod 'Siren'</span>
+  
+  <span class="token comment"># Machine learning Vision</span>
+  <span class="token comment"># pod 'OpenCV'</span>
+  
+  <span class="token comment"># Feedback</span>
+  <span class="token comment"># pod 'PinpointKit'</span>
+  
+  <span class="token comment"># Log</span>
+  <span class="token comment"># pod 'SwiftyBeaver'</span>
+  
+  <span class="token comment"># Encryption</span>
+  <span class="token comment"># pod 'CryptoSwift'</span>
+  <span class="token comment"># pod 'RNCryptor'</span>
+  
+  <span class="token comment"># Internal Purchase</span>
+  <span class="token comment"># pod 'SwiftyStoreKit'</span>
+  
+  <span class="token comment"># Calendar</span>
+  <span class="token comment"># pod 'JTAppleCalendar'</span>
+  <span class="token comment"># pod 'CVCalendar'</span>
+  
+  <span class="token comment"># Image Processing</span>
+  <span class="token comment"># pod 'Nuke'</span>
+  <span class="token comment"># pod 'Macaw'</span>
+  
+  <span class="token comment"># Image Picker</span>
+  <span class="token comment"># pod 'ImagePicker'</span>
+  <span class="token comment"># pod 'ZLPhotoBrowser'</span>
+  <span class="token comment"># pod 'YPImagePicker'</span>
+  <span class="token comment"># pod 'SKPhotoBrowser'</span>
+  
+  <span class="token comment"># Test</span>
+  <span class="token comment"># pod 'Quick'</span>
+  <span class="token comment"># pod 'Nimble'</span>
+  
+  <span class="token comment"># Storyboard and xib</span>
+  <span class="token comment"># pod 'IBAnimatable'</span>
+  
+  <span class="token comment"># Date</span>
+  <span class="token comment"># pod 'SwiftDate'</span>
+  
+  <span class="token comment"># Cache</span>
+  <span class="token comment"># pod 'HanekeSwift'</span>
+  <span class="token comment"># pod 'Disk'</span>
+  <span class="token comment"># pod 'Cache'</span>
+  
+  <span class="token comment"># Mathematics</span>
+  <span class="token comment"># pod 'Surge'</span>
+  
+  <span class="token comment"># Multithreading</span>
+  <span class="token comment"># pod "AsyncSwift"</span>
+  <span class="token comment"># pod 'Hydra'</span>
+  <span class="token comment"># pod 'BrightFutures'</span>
+  
+  <span class="token comment"># Dependency Injection</span>
+  <span class="token comment"># pod 'Swinject'</span>
+  <span class="token comment"># pod 'Typhoon'</span>
+  
+  <span class="token comment"># Chat</span>
+  <span class="token comment"># pod 'Chatto'</span>
+  <span class="token comment"># pod 'ChattoAdditions'</span>
+  
+  <span class="token comment"># Message</span>
+  <span class="token comment"># pod 'Messenger'</span>
+  <span class="token comment"># pod 'MessageKit'</span>
+  
+  <span class="token comment"># Phone Number</span>
+  <span class="token comment"># pod 'PhoneNumberKit'</span>
+  
+  <span class="token comment"># Functional Programming</span>
+  <span class="token comment"># pod 'Swiftz'</span>
+  
+  <span class="token comment"># Device</span>
+  <span class="token comment"># pod 'DeviceKit'</span>
+  
+  <span class="token comment"># Rich Text</span>
+  <span class="token comment"># pod 'BonMot'</span>
+  <span class="token comment"># pod 'SwiftRichString'</span>
+  
+  <span class="token comment"># Face</span>
+  <span class="token comment"># pod 'FaceAware'</span>
+  
+  <span class="token comment"># Geographic Location</span>
+  <span class="token comment"># pod 'SwiftLocation'</span>
+  
+  <span class="token comment"># HTML、XML</span>
+  <span class="token comment"># pod 'SwiftSoup'</span>
+  <span class="token comment"># pod 'Ono'</span>
+  <span class="token comment"># pod 'Kanna'</span>
+  
+  <span class="token comment"># Convenient (uitableviewcells, uicollectionviewcells, convenient reuse, etc)</span>
+  <span class="token comment"># pod 'Reusable'</span>
+  
+  <span class="token comment"># Localization</span>
+  <span class="token comment"># pod 'Localize-Swift'</span>
+  
+  <span class="token comment"># Gif Support</span>
+  <span class="token comment"># pod 'Gifu'</span>
+  
+  <span class="token comment"># Color</span>
+  <span class="token comment"># pod 'DynamicColor'</span>
+  
+  <span class="token comment"># Detecting memory leaks, etc</span>
+  <span class="token comment"># pod 'LifetimeTracker'</span>
+  
+  <span class="token comment"># Chart</span>
+  <span class="token comment"># pod 'SwiftCharts'</span>
+  
+  <span class="token comment"># File Processing</span>
+  <span class="token comment"># pod 'FileKit'</span>
+  <span class="token comment"># pod 'Files'</span>
+  
+  <span class="token comment"># Theme (Adapt to Dark Mode)</span>
+  <span class="token comment"># pod 'SwiftTheme'</span>
+  
+  <span class="token comment"># The status bar displays information such as FPS, CPU and memory usage, device model, app and iOS versions</span>
+  <span class="token comment"># pod 'GDPerformanceView-Swift'</span>
+  
+  <span class="token comment"># Camera and Microphone</span>
+  <span class="token comment"># pod 'HaishinKit.swift'</span>
+  
+  <span class="token comment"># Download</span>
+  <span class="token comment"># pod 'Tiercel'</span>
+  
+  <span class="token comment"># Bluetooth</span>
+  <span class="token comment"># pod 'BluetoothKit'</span>
+  
+  <span class="token comment"># Compress</span>
+  <span class="token comment"># pod 'Zip'</span>
+  
+  <span class="token comment"># Keychain</span>
+  <span class="token comment"># pod 'KeychainSwift'</span>
+  
+  <span class="token comment"># Social Sharing</span>
+  <span class="token comment"># pod 'UMengUshare'</span>
+  <span class="token comment">## pod 'UMengUShare/UI'</span>
+  <span class="token comment">## pod 'UMengUShare/Social/ReducedWeChat'</span>
+  <span class="token comment">## pod 'UMengUShare/Social/ReducedQQ'</span>
+<span class="token keyword">end</span>
+
+<span class="token keyword">def</span> <span class="token method-definition"><span class="token function">project</span></span>
+<span class="token keyword">end</span>
+
+<span class="token keyword">def</span> <span class="token method-definition"><span class="token function">debug</span></span>
+  <span class="token comment"># App Interface Debugging</span>
+  <span class="token comment"># pod 'Reveal-SDK'</span>
+  <span class="token comment"># pod 'CocoaDebug'</span>
+  
+  <span class="token comment"># Network Debugging</span>
+  <span class="token comment"># pod 'Bagel'</span>
+  <span class="token comment"># pod 'ResponseDetective'</span>
+  
+  <span class="token comment"># Log</span>
+  <span class="token comment"># pod 'XCGLogger'</span>
+<span class="token keyword">end</span>
+  <span class="token comment"># Replace your project name here</span>
+target <span class="token string-literal"><span class="token string">"ProjectName"</span></span> <span class="token keyword">do</span>
+  thirdParty
+  project
+  debug
+<span class="token keyword">end</span>
+
+post_install <span class="token keyword">do</span> <span class="token operator">|</span>installer_representation<span class="token operator">|</span>
+  installer_representation<span class="token punctuation">.</span>pods_project<span class="token punctuation">.</span>targets<span class="token punctuation">.</span><span class="token keyword">each</span> <span class="token keyword">do</span> <span class="token operator">|</span>target<span class="token operator">|</span>
+    target<span class="token punctuation">.</span>build_configurations<span class="token punctuation">.</span><span class="token keyword">each</span> <span class="token keyword">do</span> <span class="token operator">|</span>config<span class="token operator">|</span>
+      <span class="token comment"># Minimum supported iOS system version</span>
+      config<span class="token punctuation">.</span>build_settings<span class="token punctuation">[</span><span class="token string-literal"><span class="token string">'IPHONEOS_DEPLOYMENT_TARGET'</span></span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string-literal"><span class="token string">'13.0'</span></span>
+    <span class="token keyword">end</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 </ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://a.zsd.name">张赛东</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="../https:/a.zsd.name/posts/50954.html">https://a.zsd.name/posts/50954.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://a.zsd.name" target="_blank">张赛东</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="../tags/iOS/">iOS</a><a class="post-meta__tags" href="../tags/framework/">framework</a></div><div class="post_share"></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://zsd.name/medias/reward/wechat.png" target="_blank"><img class="post-qr-code-img" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://zsd.name/medias/reward/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://zsd.name/medias/reward/alipay.png" target="_blank"><img class="post-qr-code-img" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://zsd.name/medias/reward/alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="63335.html"><!--img.prev-cover(src=url_for(pagination_cover) onerror=`onerror=null;src='${url_for(theme.error_img.post_page)}'` alt='cover of previous post')--><img class="prev-cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/87.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">SQLite.swift使用</div></div></a></div><div class="next-post pull-right"><a href="38667.html"><!--img.next-cover(src=url_for(pagination_cover) onerror=`onerror=null;src='${url_for(theme.error_img.post_page)}'` alt='cover of next post')--><img class="next-cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/41.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">PodfileKit将github上常见的iOS(Swift)第三方框架进行了汇总，并且将框架进行了分类，为用户管理第三方框架提供了方便</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="47700.html" title="InterfaceKit：一行代码实现在SwiftUI界面使用UIKit、AppKit和WatchKit的接口！"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/80.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-05-01</div><div class="title">InterfaceKit：一行代码实现在SwiftUI界面使用UIKit、AppKit和WatchKit的接口！</div></div></a></div><div><a href="35069.html" title="InterfaceKit--One line of code to implement interfaces of UIKit,AppKit,and WatchKit in SwiftUI interface!"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/35.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-05-01</div><div class="title">InterfaceKit--One line of code to implement interfaces of UIKit,AppKit,and WatchKit in SwiftUI interface!</div></div></a></div><div><a href="34032.html" title="podspec示例"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/76.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-25</div><div class="title">podspec示例</div></div></a></div><div><a href="16458.html" title="Carthage使用工作记录"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/124.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-23</div><div class="title">Carthage使用工作记录</div></div></a></div><div><a href="8147.html" title="Carthage使用摘录"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/85.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-23</div><div class="title">Carthage使用摘录</div></div></a></div><div><a href="59855.html" title="Carthage库制作摘录"><img class="cover" src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/123.jpg" alt=""><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-23</div><div class="title">Carthage库制作摘录</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="lv-container" data-id="city" data-uid="MTAyMC80NTc4MS8yMjI5Mg=="></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="/img/favicon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">张赛东</div><div class="author-info__description">张赛东的文苑</div></div><div class="card-info-data site-data is-center"><a href="../archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="../tags/"><div class="headline">标签</div><div class="length-num">56</div></a><a href="../categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/adong666666"><i class="fab fa-github"></i><span>关注我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://zsd.name" target="_blank" title="博客"><i class="fas fa-home"></i></a><a class="social-icon" href="https://github.com/adong666666" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:3440217568@qq.com" target="_blank" title="邮件"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/WechatQRCode.jpg" target="_blank" title="微信"><i class="fab fa-weixin"></i></a><a class="social-icon" href="tencent://AddContact/?fromId=50&amp;amp;fromSubId=1&amp;amp;subcmd=all&amp;amp;uin=3440217568" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="https://weibo.com/u/6607189957" target="_blank" title="微博"><i class="fab fa-weibo"></i></a><a class="social-icon" href="https://www.zhihu.com/people/adong666666" target="_blank" title="知乎"><i class="fab fa-zhihu"></i></a><a class="social-icon" href="https://www.facebook.com/profile.php?id=100077856845077" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a><a class="social-icon" href="https://twitter.com/ZhangSaidong" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a><a class="social-icon" href="https://zsd.name/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到张赛东的文苑！</div></div><div class="card-widget card-docs card-categories"><div class="item-headline"><i class="fas fa-car-side"></i><span>文檔目錄</span></div><div class="item-content"><ul class=card-category-list> <li class=card-category-list-item><a class=card-category-list-link href=/posts/21cfbf15.html >🚀 快速開始</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/dc584b87.html >📑 主題頁面</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/4aa8abbe.html >🛠 主題配置-1</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/ceeb73f.html >⚔️ 主題配置-2</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/98d20436.html >❓ 主題問答</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/4073eda.html >⚡️ 進階教程</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/198a4240.html >✨ 更新日誌</a></li> </ul></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PodfileKit"><span class="toc-number">1.</span> <span class="toc-text">PodfileKit</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#github%EF%BC%9Ahttps-github-com-adong666666-PodfileKit"><span class="toc-number">2.</span> <span class="toc-text">github：https:&#x2F;&#x2F;github.com&#x2F;adong666666&#x2F;PodfileKit</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Set-up-Platform"><span class="toc-number">2.1.</span> <span class="toc-text">Set up Platform</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Designated-Third-Party-framework"><span class="toc-number">2.2.</span> <span class="toc-text">Designated Third Party framework</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Framework-Classification"><span class="toc-number">2.3.</span> <span class="toc-text">Framework Classification</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Subframework"><span class="toc-number">2.4.</span> <span class="toc-text">Subframework</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Set-up-groups"><span class="toc-number">2.5.</span> <span class="toc-text">Set up groups</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Use"><span class="toc-number">2.6.</span> <span class="toc-text">Use</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Contributing"><span class="toc-number">2.7.</span> <span class="toc-text">Contributing</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#License"><span class="toc-number">2.8.</span> <span class="toc-text">License</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Content"><span class="toc-number">2.9.</span> <span class="toc-text">Content</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="../posts/31649.html" title="默写图DFS算法"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/31.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/31649.html" title="默写图DFS算法">默写图DFS算法</a><time datetime="2022-04-11T07:42:00.000Z" title="发表于 2022-04-11 15:42:00">2022-04-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="../posts/37157.html" title="默写层次遍历"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/32.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/37157.html" title="默写层次遍历">默写层次遍历</a><time datetime="2022-04-10T03:49:00.000Z" title="发表于 2022-04-10 11:49:00">2022-04-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="../posts/19234.html" title="每日60秒读懂世界"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/56.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/19234.html" title="每日60秒读懂世界">每日60秒读懂世界</a><time datetime="2022-04-06T05:23:00.000Z" title="发表于 2022-04-06 13:23:00">2022-04-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="../posts/49201.html" title="SDUTOJ1730（记忆化搜索）：数字三角形"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/71.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/49201.html" title="SDUTOJ1730（记忆化搜索）：数字三角形">SDUTOJ1730（记忆化搜索）：数字三角形</a><time datetime="2022-03-27T03:20:00.000Z" title="发表于 2022-03-27 11:20:00">2022-03-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="../posts/11317.html" title="SDUTOJ2080（动态规划）：最长公共子序列"><!--img(src=url_for(post_cover) onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'` alt=title)--><img src= "https://cdn.jsdelivr.net/gh/adong666666/source_cdn/images/China_flag.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/101.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt=""/></a><div class="content"><a class="title" href="../posts/11317.html" title="SDUTOJ2080（动态规划）：最长公共子序列">SDUTOJ2080（动态规划）：最长公共子序列</a><time datetime="2022-03-26T11:09:00.000Z" title="发表于 2022-03-26 19:09:00">2022-03-26</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/118.jpg)"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2022 张赛东</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
 
-            </div>
-            <hr>
-            <div>
-              <div class="post-metas mb-3">
-                
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="../categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/">移动开发</a>
-                    
-                  </div>
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="../tags/iOS/">iOS</a>
-                    
-                      <a class="hover-with-bg" href="../tags/framework/">framework</a>
-                    
-                  </div>
-                
-              </div>
-              
-                <p class="note note-warning">
-                  
-                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
-                  
-                </p>
-              
-              
-                <div class="post-prevnext">
-                  <article class="post-prev col-6">
-                    
-                    
-                      <a href="63335.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">SQLite.swift使用</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
-                  </article>
-                  <article class="post-next col-6">
-                    
-                    
-                      <a href="38667.html">
-                        <span class="hidden-mobile">PodfileKit将github上常见的iOS(Swift)第三方框架进行了汇总，并且将框架进行了分类，为用户管理第三方框架提供了方便</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
-                    
-                  </article>
-                </div>
-              
-            </div>
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
 
-            
-          </article>
-        </div>
-      </div>
-    </div>
-    
-      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
-        <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
-  <div class="toc-body" id="toc-body"></div>
-</div>
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
 
-      </div>
-    
-  </div>
-</div>
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
 
-<!-- Custom -->
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>function loadLivere () {
+  if (typeof LivereTower === 'object') {
+    window.LivereTower.init()
+  }
+  else {
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  }
+}
 
+if ('Livere' === 'Livere' || !false) {
+  if (false) btf.loadComment(document.getElementById('lv-container'), loadLivere)
+  else loadLivere()
+}
+else {
+  function loadOtherComment () {
+    loadLivere()
+  }
+}</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 
-    
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
 
-    
-      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
-        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
-      </a>
-    
+document.addEventListener('pjax:send', function () {
 
-    
-      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
-     aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
-        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
-        </div>
-        <div class="list-group" id="local-search-result"></div>
-      </div>
-    </div>
-  </div>
-</div>
-    
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
 
-    
-  </main>
-
-  <footer class="text-center mt-5 py-3">
-  <div class="footer-content" style= "text-align: center;">
-     <p><span><i class="iconfont icon-copyright"></i></span> 2019 - <script> document.write(new Date().getFullYear()); </script> <a target="_blank" href="http://zsd.name/"> 张赛东</a></p> 
-  </div>
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
   
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
 
-  
+  typeof typed === 'object' && typed.destroy()
 
-  
-</footer>
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
 
+})
 
-  <!-- SCRIPTS -->
-  
-  <script src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css">
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
 
-  <script>
-    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
-    NProgress.start()
-    window.addEventListener('load', function() {
-      NProgress.done();
-    })
-  </script>
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
 
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js"></script>
-<script src="/js/events.js"></script>
-<script src="/js/plugins.js"></script>
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
 
-<!-- Plugins -->
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
 
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
 
-  <script src="/js/local-search.js"></script>
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
 
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
 
+  typeof preloader === 'object' && preloader.endLoading()
+})
 
-  
-        <script src="/js/img-lazyload.js"></script>
-  
-
-
-
-  
-
-
-
-  
-    <script src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js"></script>
-  
-  
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
-  
-  
-  <script src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js"></script>
-  
-  
-      <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
-  
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js"></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var title = document.getElementById('subtitle').title;
-      
-        typing(title);
-      
-    })(window, document);
-  </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 主题的启动项 保持在最底部 -->
-<script src="/js/boot.js"></script>
-
-
-<script>
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i+240*i||document.documentElement.clientHeight*i+240*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
-</html>
-
-<script>
-       var theUrl = "https://cdn.jsdelivr.net/gh/adong666666/cdn-wallpaper/" + (Math.round(Math.random()*123 + 1)).toString() + ".jpg";
-       document.getElementById("banner").style.backgroundImage = `url('${encodeURI(theUrl)}')`;
-        
-           // var getDom = document.getElementsByClassName("banner");
-           // for(var i=0;i<getDom.length;i++){
-           //     getDom[i].style.backgroundImage = `url('${encodeURI(theUrl)}')`;
-           // }
-</script>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i+240*i||document.documentElement.clientHeight*i+240*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body></html>

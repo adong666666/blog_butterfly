@@ -3,11 +3,11 @@
   <title>张赛东</title>
   <icon>https://www.gravatar.com/avatar/91d0b0723847ce9f5e132c9f4cbcf706</icon>
   <subtitle>碧云斜</subtitle>
-  <link href="https://blog.zsd.name/atom.xml" rel="self"/>
+  <link href="https://a.zsd.name/atom.xml" rel="self"/>
   
-  <link href="https://blog.zsd.name/"/>
+  <link href="https://a.zsd.name/"/>
   <updated>2022-04-11T07:52:49.714Z</updated>
-  <id>https://blog.zsd.name/</id>
+  <id>https://a.zsd.name/</id>
   
   <author>
     <name>张赛东</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>默写图DFS算法</title>
-    <link href="https://blog.zsd.name/posts/31649.html"/>
-    <id>https://blog.zsd.name/posts/31649.html</id>
+    <link href="https://a.zsd.name/posts/31649.html"/>
+    <id>https://a.zsd.name/posts/31649.html</id>
     <published>2022-04-11T07:42:00.000Z</published>
     <updated>2022-04-11T07:52:49.714Z</updated>
     
@@ -34,25 +34,25 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="数据结构" scheme="https://blog.zsd.name/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://a.zsd.name/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-    <category term="DFS" scheme="https://blog.zsd.name/tags/DFS/"/>
+    <category term="DFS" scheme="https://a.zsd.name/tags/DFS/"/>
     
-    <category term="默写" scheme="https://blog.zsd.name/tags/%E9%BB%98%E5%86%99/"/>
+    <category term="默写" scheme="https://a.zsd.name/tags/%E9%BB%98%E5%86%99/"/>
     
   </entry>
   
   <entry>
     <title>默写层次遍历</title>
-    <link href="https://blog.zsd.name/posts/37157.html"/>
-    <id>https://blog.zsd.name/posts/37157.html</id>
+    <link href="https://a.zsd.name/posts/37157.html"/>
+    <id>https://a.zsd.name/posts/37157.html</id>
     <published>2022-04-10T03:49:00.000Z</published>
     <updated>2022-04-10T03:56:51.515Z</updated>
     
@@ -67,23 +67,23 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="数据结构" scheme="https://blog.zsd.name/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://a.zsd.name/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-    <category term="默写" scheme="https://blog.zsd.name/tags/%E9%BB%98%E5%86%99/"/>
+    <category term="默写" scheme="https://a.zsd.name/tags/%E9%BB%98%E5%86%99/"/>
     
   </entry>
   
   <entry>
     <title>每日60秒读懂世界</title>
-    <link href="https://blog.zsd.name/posts/19234.html"/>
-    <id>https://blog.zsd.name/posts/19234.html</id>
+    <link href="https://a.zsd.name/posts/19234.html"/>
+    <id>https://a.zsd.name/posts/19234.html</id>
     <published>2022-04-06T05:23:00.000Z</published>
     <updated>2022-04-06T05:51:50.415Z</updated>
     
@@ -98,17 +98,17 @@
     
     
     
-    <category term="新闻" scheme="https://blog.zsd.name/categories/%E6%96%B0%E9%97%BB/"/>
+    <category term="新闻" scheme="https://a.zsd.name/categories/%E6%96%B0%E9%97%BB/"/>
     
     
-    <category term="新闻" scheme="https://blog.zsd.name/tags/%E6%96%B0%E9%97%BB/"/>
+    <category term="新闻" scheme="https://a.zsd.name/tags/%E6%96%B0%E9%97%BB/"/>
     
   </entry>
   
   <entry>
     <title>SDUTOJ1730（记忆化搜索）：数字三角形</title>
-    <link href="https://blog.zsd.name/posts/49201.html"/>
-    <id>https://blog.zsd.name/posts/49201.html</id>
+    <link href="https://a.zsd.name/posts/49201.html"/>
+    <id>https://a.zsd.name/posts/49201.html</id>
     <published>2022-03-27T03:20:00.000Z</published>
     <updated>2022-03-27T03:36:50.635Z</updated>
     
@@ -123,27 +123,27 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="SDUTOJ" scheme="https://blog.zsd.name/tags/SDUTOJ/"/>
+    <category term="SDUTOJ" scheme="https://a.zsd.name/tags/SDUTOJ/"/>
     
-    <category term="DFS" scheme="https://blog.zsd.name/tags/DFS/"/>
+    <category term="DFS" scheme="https://a.zsd.name/tags/DFS/"/>
     
-    <category term="Memory Search" scheme="https://blog.zsd.name/tags/Memory-Search/"/>
+    <category term="Memory Search" scheme="https://a.zsd.name/tags/Memory-Search/"/>
     
   </entry>
   
   <entry>
     <title>SDUTOJ2080（动态规划）：最长公共子序列</title>
-    <link href="https://blog.zsd.name/posts/11317.html"/>
-    <id>https://blog.zsd.name/posts/11317.html</id>
+    <link href="https://a.zsd.name/posts/11317.html"/>
+    <id>https://a.zsd.name/posts/11317.html</id>
     <published>2022-03-26T11:09:00.000Z</published>
     <updated>2022-03-26T11:13:01.574Z</updated>
     
@@ -158,23 +158,23 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="SDUTOJ" scheme="https://blog.zsd.name/tags/SDUTOJ/"/>
+    <category term="SDUTOJ" scheme="https://a.zsd.name/tags/SDUTOJ/"/>
     
   </entry>
   
   <entry>
     <title>SDUTOJ1299（动态规划）：最长上升子序列</title>
-    <link href="https://blog.zsd.name/posts/48626.html"/>
-    <id>https://blog.zsd.name/posts/48626.html</id>
+    <link href="https://a.zsd.name/posts/48626.html"/>
+    <id>https://a.zsd.name/posts/48626.html</id>
     <published>2022-03-26T10:29:00.000Z</published>
     <updated>2022-03-26T10:39:06.746Z</updated>
     
@@ -189,23 +189,23 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="SDUTOJ" scheme="https://blog.zsd.name/tags/SDUTOJ/"/>
+    <category term="SDUTOJ" scheme="https://a.zsd.name/tags/SDUTOJ/"/>
     
   </entry>
   
   <entry>
     <title>POJ3254（状态压缩dp）：玉米地</title>
-    <link href="https://blog.zsd.name/posts/22809.html"/>
-    <id>https://blog.zsd.name/posts/22809.html</id>
+    <link href="https://a.zsd.name/posts/22809.html"/>
+    <id>https://a.zsd.name/posts/22809.html</id>
     <published>2022-03-20T09:31:00.000Z</published>
     <updated>2022-03-20T09:34:23.856Z</updated>
     
@@ -220,27 +220,27 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="记忆化" scheme="https://blog.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
+    <category term="记忆化" scheme="https://a.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
     
-    <category term="POJ" scheme="https://blog.zsd.name/tags/POJ/"/>
+    <category term="POJ" scheme="https://a.zsd.name/tags/POJ/"/>
     
-    <category term="状态压缩" scheme="https://blog.zsd.name/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9/"/>
+    <category term="状态压缩" scheme="https://a.zsd.name/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9/"/>
     
   </entry>
   
   <entry>
     <title>POJ2411（状态压缩dp）：方格覆盖</title>
-    <link href="https://blog.zsd.name/posts/37129.html"/>
-    <id>https://blog.zsd.name/posts/37129.html</id>
+    <link href="https://a.zsd.name/posts/37129.html"/>
+    <id>https://a.zsd.name/posts/37129.html</id>
     <published>2022-03-20T03:18:00.000Z</published>
     <updated>2022-03-20T09:34:38.486Z</updated>
     
@@ -255,27 +255,27 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="记忆化" scheme="https://blog.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
+    <category term="记忆化" scheme="https://a.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
     
-    <category term="POJ" scheme="https://blog.zsd.name/tags/POJ/"/>
+    <category term="POJ" scheme="https://a.zsd.name/tags/POJ/"/>
     
-    <category term="状态压缩" scheme="https://blog.zsd.name/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9/"/>
+    <category term="状态压缩" scheme="https://a.zsd.name/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9/"/>
     
   </entry>
   
   <entry>
     <title>LeetCode第887题（动态规划）：鸡蛋掉落</title>
-    <link href="https://blog.zsd.name/posts/15584.html"/>
-    <id>https://blog.zsd.name/posts/15584.html</id>
+    <link href="https://a.zsd.name/posts/15584.html"/>
+    <id>https://a.zsd.name/posts/15584.html</id>
     <published>2022-02-17T14:02:00.000Z</published>
     <updated>2022-02-17T14:18:24.651Z</updated>
     
@@ -290,25 +290,25 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="记忆化" scheme="https://blog.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
+    <category term="记忆化" scheme="https://a.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
     
-    <category term="LeetCode" scheme="https://blog.zsd.name/tags/LeetCode/"/>
+    <category term="LeetCode" scheme="https://a.zsd.name/tags/LeetCode/"/>
     
   </entry>
   
   <entry>
     <title>LeetCode第72题（动态规划）：编辑距离</title>
-    <link href="https://blog.zsd.name/posts/48676.html"/>
-    <id>https://blog.zsd.name/posts/48676.html</id>
+    <link href="https://a.zsd.name/posts/48676.html"/>
+    <id>https://a.zsd.name/posts/48676.html</id>
     <published>2022-02-09T14:33:00.000Z</published>
     <updated>2022-02-09T15:05:20.865Z</updated>
     
@@ -323,25 +323,25 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="记忆化" scheme="https://blog.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
+    <category term="记忆化" scheme="https://a.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
     
-    <category term="LeetCode" scheme="https://blog.zsd.name/tags/LeetCode/"/>
+    <category term="LeetCode" scheme="https://a.zsd.name/tags/LeetCode/"/>
     
   </entry>
   
   <entry>
     <title>LeetCode第64题（动态规划）：最小路径和</title>
-    <link href="https://blog.zsd.name/posts/24103.html"/>
-    <id>https://blog.zsd.name/posts/24103.html</id>
+    <link href="https://a.zsd.name/posts/24103.html"/>
+    <id>https://a.zsd.name/posts/24103.html</id>
     <published>2022-02-08T17:14:00.000Z</published>
     <updated>2022-02-09T14:38:26.327Z</updated>
     
@@ -356,25 +356,25 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="记忆化" scheme="https://blog.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
+    <category term="记忆化" scheme="https://a.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
     
-    <category term="LeetCode" scheme="https://blog.zsd.name/tags/LeetCode/"/>
+    <category term="LeetCode" scheme="https://a.zsd.name/tags/LeetCode/"/>
     
   </entry>
   
   <entry>
     <title>LeetCode第62题（动态规划）：不同路径</title>
-    <link href="https://blog.zsd.name/posts/22189.html"/>
-    <id>https://blog.zsd.name/posts/22189.html</id>
+    <link href="https://a.zsd.name/posts/22189.html"/>
+    <id>https://a.zsd.name/posts/22189.html</id>
     <published>2022-01-30T03:48:00.000Z</published>
     <updated>2022-01-30T17:21:54.320Z</updated>
     
@@ -389,25 +389,25 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="记忆化" scheme="https://blog.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
+    <category term="记忆化" scheme="https://a.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
     
-    <category term="LeetCode" scheme="https://blog.zsd.name/tags/LeetCode/"/>
+    <category term="LeetCode" scheme="https://a.zsd.name/tags/LeetCode/"/>
     
   </entry>
   
   <entry>
     <title>解决动态规划问题的思考过程摘录</title>
-    <link href="https://blog.zsd.name/posts/7211.html"/>
-    <id>https://blog.zsd.name/posts/7211.html</id>
+    <link href="https://a.zsd.name/posts/7211.html"/>
+    <id>https://a.zsd.name/posts/7211.html</id>
     <published>2022-01-28T05:46:00.000Z</published>
     <updated>2022-01-30T16:48:56.021Z</updated>
     
@@ -422,23 +422,23 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
-    <category term="记忆化" scheme="https://blog.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
+    <category term="记忆化" scheme="https://a.zsd.name/tags/%E8%AE%B0%E5%BF%86%E5%8C%96/"/>
     
   </entry>
   
   <entry>
     <title>Hexo进阶之各种优化摘录</title>
-    <link href="https://blog.zsd.name/posts/36046.html"/>
-    <id>https://blog.zsd.name/posts/36046.html</id>
+    <link href="https://a.zsd.name/posts/36046.html"/>
+    <id>https://a.zsd.name/posts/36046.html</id>
     <published>2022-01-21T09:14:00.000Z</published>
     <updated>2022-04-04T05:03:37.971Z</updated>
     
@@ -453,25 +453,25 @@
     
     
     
-    <category term="脚本语言" scheme="https://blog.zsd.name/categories/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80/"/>
+    <category term="脚本语言" scheme="https://a.zsd.name/categories/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80/"/>
     
     
-    <category term="git" scheme="https://blog.zsd.name/tags/git/"/>
+    <category term="git" scheme="https://a.zsd.name/tags/git/"/>
     
-    <category term="github" scheme="https://blog.zsd.name/tags/github/"/>
+    <category term="github" scheme="https://a.zsd.name/tags/github/"/>
     
-    <category term="博文" scheme="https://blog.zsd.name/tags/%E5%8D%9A%E6%96%87/"/>
+    <category term="博文" scheme="https://a.zsd.name/tags/%E5%8D%9A%E6%96%87/"/>
     
-    <category term="hexo" scheme="https://blog.zsd.name/tags/hexo/"/>
+    <category term="hexo" scheme="https://a.zsd.name/tags/hexo/"/>
     
-    <category term="ejs" scheme="https://blog.zsd.name/tags/ejs/"/>
+    <category term="ejs" scheme="https://a.zsd.name/tags/ejs/"/>
     
   </entry>
   
   <entry>
     <title>基于Hexo的matery主题搭建博客并深度优化摘录</title>
-    <link href="https://blog.zsd.name/posts/46171.html"/>
-    <id>https://blog.zsd.name/posts/46171.html</id>
+    <link href="https://a.zsd.name/posts/46171.html"/>
+    <id>https://a.zsd.name/posts/46171.html</id>
     <published>2022-01-20T11:22:00.000Z</published>
     <updated>2022-01-21T09:36:09.912Z</updated>
     
@@ -486,25 +486,25 @@
     
     
     
-    <category term="脚本语言" scheme="https://blog.zsd.name/categories/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80/"/>
+    <category term="脚本语言" scheme="https://a.zsd.name/categories/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80/"/>
     
     
-    <category term="git" scheme="https://blog.zsd.name/tags/git/"/>
+    <category term="git" scheme="https://a.zsd.name/tags/git/"/>
     
-    <category term="github" scheme="https://blog.zsd.name/tags/github/"/>
+    <category term="github" scheme="https://a.zsd.name/tags/github/"/>
     
-    <category term="博文" scheme="https://blog.zsd.name/tags/%E5%8D%9A%E6%96%87/"/>
+    <category term="博文" scheme="https://a.zsd.name/tags/%E5%8D%9A%E6%96%87/"/>
     
-    <category term="hexo" scheme="https://blog.zsd.name/tags/hexo/"/>
+    <category term="hexo" scheme="https://a.zsd.name/tags/hexo/"/>
     
-    <category term="ejs" scheme="https://blog.zsd.name/tags/ejs/"/>
+    <category term="ejs" scheme="https://a.zsd.name/tags/ejs/"/>
     
   </entry>
   
   <entry>
     <title>git Large File Storage摘录</title>
-    <link href="https://blog.zsd.name/posts/55425.html"/>
-    <id>https://blog.zsd.name/posts/55425.html</id>
+    <link href="https://a.zsd.name/posts/55425.html"/>
+    <id>https://a.zsd.name/posts/55425.html</id>
     <published>2022-01-20T06:07:00.000Z</published>
     <updated>2022-04-12T16:38:01.723Z</updated>
     
@@ -519,19 +519,19 @@
     
     
     
-    <category term="版本控制git" scheme="https://blog.zsd.name/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6git/"/>
+    <category term="版本控制git" scheme="https://a.zsd.name/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6git/"/>
     
     
-    <category term="git" scheme="https://blog.zsd.name/tags/git/"/>
+    <category term="git" scheme="https://a.zsd.name/tags/git/"/>
     
-    <category term="github" scheme="https://blog.zsd.name/tags/github/"/>
+    <category term="github" scheme="https://a.zsd.name/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>Hexo文件名大小写问题摘录</title>
-    <link href="https://blog.zsd.name/posts/12645.html"/>
-    <id>https://blog.zsd.name/posts/12645.html</id>
+    <link href="https://a.zsd.name/posts/12645.html"/>
+    <id>https://a.zsd.name/posts/12645.html</id>
     <published>2022-01-19T03:28:00.000Z</published>
     <updated>2022-01-21T09:36:09.894Z</updated>
     
@@ -546,25 +546,25 @@
     
     
     
-    <category term="脚本语言" scheme="https://blog.zsd.name/categories/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80/"/>
+    <category term="脚本语言" scheme="https://a.zsd.name/categories/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80/"/>
     
     
-    <category term="git" scheme="https://blog.zsd.name/tags/git/"/>
+    <category term="git" scheme="https://a.zsd.name/tags/git/"/>
     
-    <category term="github" scheme="https://blog.zsd.name/tags/github/"/>
+    <category term="github" scheme="https://a.zsd.name/tags/github/"/>
     
-    <category term="博文" scheme="https://blog.zsd.name/tags/%E5%8D%9A%E6%96%87/"/>
+    <category term="博文" scheme="https://a.zsd.name/tags/%E5%8D%9A%E6%96%87/"/>
     
-    <category term="hexo" scheme="https://blog.zsd.name/tags/hexo/"/>
+    <category term="hexo" scheme="https://a.zsd.name/tags/hexo/"/>
     
-    <category term="ejs" scheme="https://blog.zsd.name/tags/ejs/"/>
+    <category term="ejs" scheme="https://a.zsd.name/tags/ejs/"/>
     
   </entry>
   
   <entry>
     <title>动态规划之状态压缩</title>
-    <link href="https://blog.zsd.name/posts/49630.html"/>
-    <id>https://blog.zsd.name/posts/49630.html</id>
+    <link href="https://a.zsd.name/posts/49630.html"/>
+    <id>https://a.zsd.name/posts/49630.html</id>
     <published>2022-01-16T03:57:00.000Z</published>
     <updated>2022-01-30T16:49:50.200Z</updated>
     
@@ -580,21 +580,21 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="动态规划" scheme="https://blog.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="动态规划" scheme="https://a.zsd.name/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>C++标准库使用</title>
-    <link href="https://blog.zsd.name/posts/44130.html"/>
-    <id>https://blog.zsd.name/posts/44130.html</id>
+    <link href="https://a.zsd.name/posts/44130.html"/>
+    <id>https://a.zsd.name/posts/44130.html</id>
     <published>2022-01-06T09:52:00.000Z</published>
     <updated>2022-02-14T06:43:36.312Z</updated>
     
@@ -610,21 +610,21 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
-    <category term="数据结构" scheme="https://blog.zsd.name/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://a.zsd.name/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
   <entry>
     <title>Mac上使用C++万能头文件</title>
-    <link href="https://blog.zsd.name/posts/33854.html"/>
-    <id>https://blog.zsd.name/posts/33854.html</id>
+    <link href="https://a.zsd.name/posts/33854.html"/>
+    <id>https://a.zsd.name/posts/33854.html</id>
     <published>2022-01-01T06:52:00.000Z</published>
     <updated>2022-01-30T16:50:34.323Z</updated>
     
@@ -639,12 +639,12 @@
     
     
     
-    <category term="数据结构与算法" scheme="https://blog.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构与算法" scheme="https://a.zsd.name/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://blog.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://blog.zsd.name/tags/C/"/>
+    <category term="C++" scheme="https://a.zsd.name/tags/C/"/>
     
   </entry>
   
