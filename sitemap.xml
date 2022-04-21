@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://a.zsd.name/gallery/index.html</loc>
+    
+    <lastmod>2022-04-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://a.zsd.name/posts/dc584b87.html</loc>
     
     <lastmod>2022-04-21</lastmod>
@@ -57,15 +66,6 @@
   
   <url>
     <loc>https://a.zsd.name/posts/21cfbf15.html</loc>
-    
-    <lastmod>2022-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://a.zsd.name/Gallery/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://a.zsd.name/Gallery/marvel/index.html</loc>
+    <loc>https://a.zsd.name/gallery/marvel/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://a.zsd.name/Gallery/ohmygirl/index.html</loc>
+    <loc>https://a.zsd.name/gallery/ohmygirl/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://a.zsd.name/Gallery/wallpaper/index.html</loc>
+    <loc>https://a.zsd.name/gallery/wallpaper/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
     
@@ -1347,20 +1347,6 @@
   </url>
   
   <url>
-    <loc>https://a.zsd.name/tags/%E4%B8%89%E7%BB%B4%E6%A8%A1%E5%9E%8B/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://a.zsd.name/tags/file/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://a.zsd.name/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1369,6 +1355,20 @@
   
   <url>
     <loc>https://a.zsd.name/tags/C/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://a.zsd.name/tags/%E4%B8%89%E7%BB%B4%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://a.zsd.name/tags/file/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
