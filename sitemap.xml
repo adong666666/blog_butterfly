@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://a.zsd.name/gallery/ohmygirl/index.html</loc>
+    <loc>https://a.zsd.name/gallery/marvel/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://a.zsd.name/gallery/marvel/index.html</loc>
+    <loc>https://a.zsd.name/gallery/ohmygirl/index.html</loc>
     
     <lastmod>2022-04-21</lastmod>
     
@@ -1284,14 +1284,14 @@
   </url>
   
   <url>
-    <loc>https://a.zsd.name/tags/network/</loc>
+    <loc>https://a.zsd.name/tags/framework/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://a.zsd.name/tags/framework/</loc>
+    <loc>https://a.zsd.name/tags/network/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
