@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Hexo cannot get /</title>
+      <link href="/posts/7563.html"/>
+      <url>/posts/7563.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo-cannot-get"><a href="#Hexo-cannot-get" class="headerlink" title="Hexo cannot get /"></a>Hexo cannot get /</h1><p>========================</p><p>因为大改了博客，node_modules内的文件被改动过，导致博客的index.html文件生成出现问题。</p><p>执行<code>npm audit fix</code> 查看是否缺失组件，通过<code>npm install hexo-xxx-xxx</code> 安装即可。</p><p>这里我遇到的问题是<code>Cannot get /</code>，缺失了hexo-generator-index组件，应该是我安装其他组件时将其卸载了。之后进行了hexo clean 才发现不能生成index.html这个问题， 因此执行<code>npm install hexo-generator-index</code>便解决了我遇到的问题。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 脚本语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博文 </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>默写图DFS算法</title>
       <link href="/posts/31649.html"/>
       <url>/posts/31649.html</url>
