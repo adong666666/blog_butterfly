@@ -6,7 +6,7 @@
   <link href="https://a.zsd.name/atom.xml" rel="self"/>
   
   <link href="https://a.zsd.name/"/>
-  <updated>2022-07-13T01:35:35.420Z</updated>
+  <updated>2022-10-12T15:25:12.196Z</updated>
   <id>https://a.zsd.name/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>诗文摘选——将进酒</title>
+    <link href="https://a.zsd.name/posts/32416.html"/>
+    <id>https://a.zsd.name/posts/32416.html</id>
+    <published>2022-10-12T15:20:00.000Z</published>
+    <updated>2022-10-12T15:25:12.196Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;诗文摘选——将进酒&quot;&gt;&lt;a href=&quot;#诗文摘选——将进酒&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="诗歌" scheme="https://a.zsd.name/categories/%E8%AF%97%E6%AD%8C/"/>
+    
+    
+    <category term="诗歌" scheme="https://a.zsd.name/tags/%E8%AF%97%E6%AD%8C/"/>
+    
+    <category term="摘选" scheme="https://a.zsd.name/tags/%E6%91%98%E9%80%89/"/>
+    
+  </entry>
   
   <entry>
     <title>诗文摘选——春江花月夜</title>
@@ -610,33 +637,6 @@
     <category term="hexo" scheme="https://a.zsd.name/tags/hexo/"/>
     
     <category term="ejs" scheme="https://a.zsd.name/tags/ejs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git Large File Storage摘录</title>
-    <link href="https://a.zsd.name/posts/55425.html"/>
-    <id>https://a.zsd.name/posts/55425.html</id>
-    <published>2022-01-20T06:07:00.000Z</published>
-    <updated>2022-04-12T16:38:01.723Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;git-Large-File-Storage摘录&quot;&gt;&lt;a href=&quot;#git-Large-File-Storage摘录&quot; class=&quot;headerlink&quot; title=&quot;git Large File Storage摘录&quot;&gt;&lt;/a&gt;git Large</summary>
-        
-      
-    
-    
-    
-    <category term="版本控制git" scheme="https://a.zsd.name/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6git/"/>
-    
-    
-    <category term="git" scheme="https://a.zsd.name/tags/git/"/>
-    
-    <category term="github" scheme="https://a.zsd.name/tags/github/"/>
     
   </entry>
   
